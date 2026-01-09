@@ -2,6 +2,8 @@
 
 > Creating a emergency USB stick is useful. This document tells you how.
 
+> Goal: have emergency access to computer services for at least **5 years continuously** (extreme long and persistent situation)
+
 ### Requirements
 
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
