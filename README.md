@@ -214,6 +214,10 @@ chmod +x name.AppImage
 
 ## 5. Windows Portable Apps
 
+GPG4WIN (very important):
+
+https://www.gpg4win.org/
+
 Essential tools for Windows environments
 
 Download and create a USB with many free portable apps:
