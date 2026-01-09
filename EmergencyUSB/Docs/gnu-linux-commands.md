@@ -1,4 +1,4 @@
-# Linux Commands Reference Guide
+# GNU Linux Commands Reference Guide
 
 ---
 
