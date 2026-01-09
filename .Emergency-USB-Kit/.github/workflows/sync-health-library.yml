@@ -1,0 +1,38 @@
+name: Sync Health-Library
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch: # manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Emergency-USB-Kit
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Remove old Health-Library folder
+        run: |
+          rm -rf EmergencyUSB/Docs/Health-Library/
+
+      - name: Clone Health-Library
+        run: |
+          git clone https://github.com/flaneurette/Health-Library.git temp-health-library
+          mkdir -p EmergencyUSB/Docs/Health-Library
+          cp -r temp-health-library/* EmergencyUSB/Docs/Health-Library/
+          rm -rf temp-health-library
+
+      - name: Commit and push changes
+        run: |
+          git add EmergencyUSB/Docs/Health-Library/
+          git commit -m "Sync Health-Library updates" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
