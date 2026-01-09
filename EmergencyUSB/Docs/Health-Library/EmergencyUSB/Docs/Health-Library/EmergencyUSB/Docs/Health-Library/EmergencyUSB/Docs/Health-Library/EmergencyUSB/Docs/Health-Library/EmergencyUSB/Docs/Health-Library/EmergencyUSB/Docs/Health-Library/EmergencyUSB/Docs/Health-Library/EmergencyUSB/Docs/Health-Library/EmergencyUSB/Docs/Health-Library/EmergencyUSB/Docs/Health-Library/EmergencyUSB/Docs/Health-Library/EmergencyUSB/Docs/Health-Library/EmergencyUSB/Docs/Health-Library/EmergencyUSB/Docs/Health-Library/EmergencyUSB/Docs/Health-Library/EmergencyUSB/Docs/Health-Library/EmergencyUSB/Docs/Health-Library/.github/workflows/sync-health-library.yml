@@ -1,0 +1,48 @@
+name: Sync to Emergency-USB-Kit
+
+on:
+  push:
+    branches:
+      - main  # Change this if your default branch is different
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Health-Library
+        uses: actions/checkout@v4
+        with:
+          path: health-library
+
+      - name: Checkout Emergency-USB-Kit
+        uses: actions/checkout@v4
+        with:
+          repository: flaneurette/Emergency-USB-Kit
+          token: ${{ secrets.PAT }}
+          path: emergency-usb-kit
+
+      - name: Sync files
+        run: |
+          # Remove old files in target directory
+          rm -rf emergency-usb-kit/EmergencyUSB/Docs/Health-Library/*
+          
+          # Copy all files from Health-Library to Emergency-USB-Kit
+          cp -r health-library/* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/
+          
+          # Copy hidden files if any (like .gitignore)
+          cp -r health-library/.[!.]* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/ 2>/dev/null || true
+
+      - name: Commit and push changes
+        run: |
+          cd emergency-usb-kit
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add EmergencyUSB/Docs/Health-Library/
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Health-Library updates from ${{ github.repository }}@${{ github.sha }}"
+            git push
+          fi
