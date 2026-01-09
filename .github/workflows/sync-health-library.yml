@@ -33,6 +33,18 @@ jobs:
           # Copy all files EXCEPT .git directory
           rsync -av --exclude='.git' --exclude='.github' health-library/ emergency-usb-kit/EmergencyUSB/Docs/Health-Library/
 
+      # Add more repos here - Example:
+      # - name: Checkout Another-Repo
+      #   uses: actions/checkout@v4
+      #   with:
+      #     repository: flaneurette/Another-Repo
+      #     path: another-repo
+      #
+      # - name: Sync Another-Repo
+      #   run: |
+      #     find emergency-usb-kit/EmergencyUSB/Docs/Another-Repo/ -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+      #     rsync -av --exclude='.git' --exclude='.github' another-repo/ emergency-usb-kit/EmergencyUSB/Docs/Another-Repo/
+
       - name: Commit and push changes
         run: |
           cd emergency-usb-kit
@@ -44,6 +56,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Sync Health-Library updates from ${{ github.repository }}@${{ github.sha }}"
+            git commit -m "Sync updates from multiple repos - $(date)"
             git push
           fi
