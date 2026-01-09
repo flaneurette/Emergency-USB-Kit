@@ -92,8 +92,6 @@ These let you boot any PC into Linux without installing anything.
 Best for: General rescue, hardware support, everyday tasks
 
 - Download: https://ubuntu.com/download/desktop
-- Windows: https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true
-- Intel/AMD: https://ubuntu.com/download/desktop/thank-you?version=25.10&architecture=amd64
 - Great hardware support and easy to use
 
 ### Linux Mint (user-friendly live) - ~3 GB
