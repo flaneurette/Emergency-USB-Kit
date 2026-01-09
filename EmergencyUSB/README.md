@@ -1,3 +1,3 @@
-# EMERGENCY USB STICK.
+# Suggested folder structure.
 
-> Add info here.
+> Feel free to adjust to your needs.
