@@ -24,7 +24,7 @@
 - TLC NAND: Minimum lifespan: 1 year. Consumer grade.
 - QLC NAND: Minimum lifespan: 1 year. Consumer grade.
 
-You don't want a emergency USB stick to fail, hence I reccomend SLC then MLC, and otherwise: TLC/QLC (but then buy 4-5 sticks and make duplicates of the master USB and stow them away)
+You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, and otherwise: TLC/QLC (but then buy 4-5 sticks and make duplicates of the master USB and stow them away)
 
 ## Recommended USB Structure
 
