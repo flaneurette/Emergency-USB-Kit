@@ -212,10 +212,16 @@ chmod +x name.AppImage
 
 ## 5. Windows Portable Apps
 
-Essential tools for Windows environments or when booted into Windows PE.
+Essential tools for Windows environments
 
 Download and create a USB with many free portable apps:
-- PortableApps.com: https://portableapps.com/
+PortableApps.com: https://portableapps.com/
+
+https://ninite.com/
+
+https://www.liberkey.com
+
+http://www.winpenpack.com/
 
 ### Key Windows Portable Tools
 - PuTTY Portable (SSH client)
