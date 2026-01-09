@@ -12,25 +12,23 @@ jobs:
       - name: Checkout Health-Library
         uses: actions/checkout@v4
         with:
+          repository: flaneurette/Health-Library
           path: health-library
 
       - name: Checkout Emergency-USB-Kit
         uses: actions/checkout@v4
         with:
           repository: flaneurette/Emergency-USB-Kit
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.SYNC_TOKEN }}
           path: emergency-usb-kit
 
       - name: Sync files
         run: |
-          # Remove old files in target directory
-          rm -rf emergency-usb-kit/EmergencyUSB/Docs/Health-Library/*
+          # Remove old files in target directory (but keep .git if it exists)
+          find emergency-usb-kit/EmergencyUSB/Docs/Health-Library/ -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
           
-          # Copy all files from Health-Library to Emergency-USB-Kit
-          cp -r health-library/* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/
-          
-          # Copy hidden files if any (like .gitignore)
-          cp -r health-library/.[!.]* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/ 2>/dev/null || true
+          # Copy all files EXCEPT .git directory
+          rsync -av --exclude='.git' --exclude='.github' health-library/ emergency-usb-kit/EmergencyUSB/Docs/Health-Library/
 
       - name: Commit and push changes
         run: |
