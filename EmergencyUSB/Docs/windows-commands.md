@@ -126,6 +126,10 @@ fsutil volume diskfree C: # Free space details
 
 ### Network Commands
 
+Send message to network pc: (used to be `net send`)
+
+`msg * /server:192.168.1.1 "Hello!"`
+
 ```cmd
 # Network configuration
 ipconfig                  # IP configuration
