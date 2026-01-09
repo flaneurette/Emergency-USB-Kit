@@ -504,7 +504,7 @@ bootrec /rebuildbcd
 rstrui.exe               # Opens System Restore wizard
 ```
 
-### 🔧 Fix Corrupted Windows
+### Fix Corrupted Windows
 
 ```cmd
 # System File Checker
