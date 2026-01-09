@@ -17,6 +17,15 @@
 
 > NOTE: SLC NAND outperforms many newer USB sticks. Some SLC NAND sticks can survive 25+ years. But they might be more expensive and have less storage. If you can get them, do it. Especially for sensitive files, such as: password databases, keys, documents, etc.
 
+### Why USB technology matters.
+
+- SLC NAND: Minimum lifespan: 5-7 years, (I owned a 64MB SLC stick that lasted 25+ years). Military grade.
+- MLC NAND: Minimum lifespan: 2 year. Enterprise grade.
+- TLC NAND: Minimum lifespan: 1 year. Consumer grade.
+- QLC NAND: Minimum lifespan: 1 year. Consumer grade.
+
+You don't want a emergency USB stick to fail, hence I reccomend SLC then MLC, and otherwise: TLC/QLC (but then buy 4-5 sticks and make duplicates of the master USB and stow them away)
+
 ## Recommended USB Structure
 
 ```
