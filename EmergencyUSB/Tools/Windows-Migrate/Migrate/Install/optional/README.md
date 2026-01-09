@@ -1,0 +1,54 @@
+# Readme
+
+Some software versions might not exists anymore when you install it, or need to be updated after running the .bat installation files. Always be sure to download the latest version of the software. 
+These are just (network) helper scripts.
+
+# Uses
+
+- These bat files install common, popular or new software that is recommended to many users/developers in 2025/2026. 
+- Only install what you recognize. 
+- If you are curious about certain software, use a search engine to find out more about it.
+
+Currently these bat installers can install:
+
+- Portmaster (a very good firewall for AMD users. Check their website if you use intel)
+- NextDNS (recommended DNS for all users)
+- Stirling PDF (a recommended free Acrobat alternative)
+- Putty (mainly for developers: terminal emulator)
+- WinSCP (mainly for developers: secure copy)
+
+# Manual
+
+You could also manually install each software package. Below are the links.
+
+Run Utilities.bat to install them.
+
+
+| Name               | Purpose / Category              | Official Download URL                                                                                                                                                        | SHA256 / Notes                                                   | Recommended For                   |
+| ------------------ | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- |
+| Portmaster         | Firewall / Privacy              | [https://safing.io/portmaster/](https://safing.io/portmaster/)                                                                                                               | Check official site                                              | AMD users (or Intel with caveats) |
+| NextDNS            | DNS / Privacy                   | [https://nextdns.io/download/windows](https://nextdns.io/download/windows)                                                                                                   | N/A (installer auto-config)                                      | All users                         |
+| Stirling PDF       | PDF reader / editor             | [https://stirlingpdf.com/download](https://stirlingpdf.com/download)                                                                                                         | N/A                                                              | Free Acrobat alternative          |
+| Putty              | SSH / Terminal                  | [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)                                             | N/A                                                              | Developers                        |
+| WinSCP             | Secure copy / SFTP              | [https://downloads.sourceforge.net/project/winscp/WinSCP/6.5.5/WinSCP-6.5.5-Setup.exe](https://downloads.sourceforge.net/project/winscp/WinSCP/6.5.5/WinSCP-6.5.5-Setup.exe) | 8c223402d933df4430f2c6e3cad17ed1db17710abfd13d62acc707ea480a092f | Developers                        |                 |
+| KeePassXC          | Password manager (offline)      | [https://keepassxc.org/download/](https://keepassxc.org/download/)                                                                                                           | N/A                                                              | Privacy-conscious users           |
+| VeraCrypt          | Disk / container encryption     | [https://www.veracrypt.fr/en/Downloads.html](https://www.veracrypt.fr/en/Downloads.html)                                                                                     | N/A                                                              | Privacy / Security                |         |
+| Malwarebytes       | Malware scanner / protection    | [https://www.malwarebytes.com/mwb-download/](https://www.malwarebytes.com/mwb-download/)                                                                                     | N/A                                                              | Optional for extra security       |
+| OpenVPN            | VPN client                      | [https://openvpn.net/community-downloads/](https://openvpn.net/community-downloads/)                                                                                         | N/A                                                              | Networking / Privacy              |
+| WireGuard          | VPN client                      | [https://www.wireguard.com/install/](https://www.wireguard.com/install/)                                                                                                     | N/A                                                              | Networking / Privacy              |
+| Termius            | SSH / terminal                  | [https://www.termius.com/download](https://www.termius.com/download)                                                                                                         | N/A                                                              | Developers                        |
+| MobaXterm          | SSH / terminal + SFTP           | [https://mobaxterm.mobatek.net/download.html](https://mobaxterm.mobatek.net/download.html)                                                                                   | N/A                                                              | Developers                        |
+| LibreOffice        | Office suite                    | [https://www.libreoffice.org/download/download/](https://www.libreoffice.org/download/download/)                                                                             | N/A                                                              | Productivity                      |
+| Notepad++          | Text editor / coding            | [https://notepad-plus-plus.org/downloads/](https://notepad-plus-plus.org/downloads/)                                                                                         | N/A                                                              | Productivity / Developers         |
+| Everything         | File search                     | [https://www.voidtools.com/downloads/](https://www.voidtools.com/downloads/)                                                                                                 | N/A                                                              | Productivity                      |
+| ShareX             | Screenshot / screen capture     | [https://getsharex.com/downloads/](https://getsharex.com/downloads/)                                                                                                         | N/A                                                              | Productivity / Multimedia         |
+| OBS Studio         | Screen recording / streaming    | [https://obsproject.com/download](https://obsproject.com/download)                                                                                                           | N/A                                                              | Multimedia                        |
+| Visual Studio Code | IDE / code editor               | [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)                                                                                             | N/A                                                              | Developers                        |
+| Git for Windows    | Git CLI + Bash                  | [https://git-scm.com/download/win](https://git-scm.com/download/win)                                                                                                         | N/A                                                              | Developers                        |
+| Cmder              | Console emulator                | [https://cmder.app/#download](https://cmder.app/#download)                                                                                                                   | N/A                                                              | Developers                        |
+| Python             | Scripting / development         | [https://www.python.org/ftp/python/3.12.0/](https://www.python.org/ftp/python/3.12.0/)                                         | N/A                                                              | Developers                        |
+| Node.js            | JavaScript runtime / npm        | [https://nodejs.org/en/download/](https://nodejs.org/en/download/)                                                                                                           | N/A                                                              | Developers                        |
+| VLC Media Player   | Media player                    | [https://www.videolan.org/vlc/index.html](https://www.videolan.org/vlc/index.html)                                                                                           | N/A                                                              | Multimedia                        |
+| Audacity           | Audio editing                   | [https://www.audacityteam.org/download/](https://www.audacityteam.org/download/)                                                                                             | N/A                                                              | Multimedia                        |
+| Foobar2000         | Audio player                    | [https://www.foobar2000.org/download](https://www.foobar2000.org/download)                                                                                                   | N/A                                                              | Multimedia                        |
+| 7-Zip              | Archive manager                 | [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)                                                                                                   | N/A                                                              | Productivity                      |           |
