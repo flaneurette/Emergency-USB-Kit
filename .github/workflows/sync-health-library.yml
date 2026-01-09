@@ -1,9 +1,12 @@
 name: Sync to Emergency-USB-Kit
 
 on:
+  schedule:
+    - cron: '0 5,17 * * *'  # Runs at 5 AM and 5 PM UTC daily
   push:
     branches:
-      - main  # Change this if your default branch is different
+      - main  # Also runs immediately when you push
+  workflow_dispatch:  # Allows manual trigger from Actions tab
 
 jobs:
   sync:
