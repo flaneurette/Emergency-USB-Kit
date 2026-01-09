@@ -492,6 +492,7 @@ Always verify checksums when using alternative sources.
 - Borecraft USB Emergency Kit tips: https://borecraft.com/usb-emergency-kit/
 - SystemRescue documentation: https://www.system-rescue.org/manual/
 - Ubuntu help documentation (offline copy recommended)
+- https://internet-in-a-box.org/ (very good extra solution)
 
 ---
 
