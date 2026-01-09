@@ -22,7 +22,7 @@ jobs:
       
       - name: Sync Server-Scripts
         run: |
-          mkdir -p "emergency-usb-kit/EmergencyUSB/Scripts/"
+          mkdir -p "emergency-usb-kit/EmergencyUSB/Scripts/Server-Scripts/"
           find "emergency-usb-kit/EmergencyUSB/Scripts/Server-Scripts/" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
           rsync -av --exclude='.git' --exclude='.github' Server-Scripts/ "emergency-usb-kit/EmergencyUSB/Scripts/Server-Scripts/"
 
