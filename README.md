@@ -377,6 +377,10 @@ TLDR Pages (Community-driven simplified man pages)
 - Much more beginner-friendly than traditional man pages
 - Example-focused
 
+Cheat.sh
+
+https://github.com/chubin/cheat.sh
+
 GNU Coreutils Manual (Official)
 - PDF download: https://www.gnu.org/software/coreutils/manual/coreutils.pdf
 - Comprehensive but dense
