@@ -1,47 +1,48 @@
-name: Sync Health-Library
+name: Sync to Emergency-USB-Kit
 
 on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Change this if your default branch is different
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Emergency-USB-Kit
-        uses: actions/checkout@v3
+      - name: Checkout Health-Library
+        uses: actions/checkout@v4
         with:
-          persist-credentials: false  # important for PAT push
+          path: health-library
 
-      - name: Set up Git
+      - name: Checkout Emergency-USB-Kit
+        uses: actions/checkout@v4
+        with:
+          repository: flaneurette/Emergency-USB-Kit
+          token: ${{ secrets.PAT }}
+          path: emergency-usb-kit
+
+      - name: Sync files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Remove old Health-Library folder
-        run: rm -rf EmergencyUSB/Docs/Health-Library/
-
-      - name: Clone Health-Library
-        run: |
-          git clone https://github.com/flaneurette/Health-Library.git temp-health-library
-          mkdir -p EmergencyUSB/Docs/Health-Library
-          cp -r temp-health-library/* EmergencyUSB/Docs/Health-Library/
-          rm -rf temp-health-library
-
-      - name: Check for changes
-        id: git-check
-        run: |
-          if git diff --quiet; then
-            echo "no_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "no_changes=false" >> $GITHUB_OUTPUT
-          fi
+          # Remove old files in target directory
+          rm -rf emergency-usb-kit/EmergencyUSB/Docs/Health-Library/*
+          
+          # Copy all files from Health-Library to Emergency-USB-Kit
+          cp -r health-library/* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/
+          
+          # Copy hidden files if any (like .gitignore)
+          cp -r health-library/.[!.]* emergency-usb-kit/EmergencyUSB/Docs/Health-Library/ 2>/dev/null || true
 
       - name: Commit and push changes
-        if: steps.git-check.outputs.no_changes == 'false'
         run: |
+          cd emergency-usb-kit
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add EmergencyUSB/Docs/Health-Library/
-          git commit -m "Sync Health-Library updates"
-          git push https://flaneurette:${{ secrets.PAT }}@github.com/flaneurette/Emergency-USB-Kit.git main
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Health-Library updates from ${{ github.repository }}@${{ github.sha }}"
+            git push
+          fi
