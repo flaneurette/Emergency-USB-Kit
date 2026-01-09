@@ -8,7 +8,7 @@
 - At least 2 USB sticks, because of the survival mantra: **one is none, two is one.**
 - If you need offline documentation, such as Wikipedia Kiwix, then i advise and extra SSD to store all those ZIM files.
 - Perhaps a single day to create the two sticks.
-- Avoid cheap USB sticks, or microSD cards (the break or get lost quickly)
+- Avoid cheap USB sticks, or microSD cards (they break or get lost quickly)
 - Test before emergency: Verify your USB boots successfully on at least one computer
 - Update schedule: Refresh your kit every 6 months for latest drivers and security patches
 
