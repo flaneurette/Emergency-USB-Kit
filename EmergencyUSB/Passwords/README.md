@@ -1,3 +1,3 @@
 # EMERGENCY USB STICK.
 
-> Your password files, databases, .kxdb, .pkk, server keys, etc. 
+> Your password files, password databases, .kdbx, .pkk, server keys, private keys (encrypted in a zip) etc. 
