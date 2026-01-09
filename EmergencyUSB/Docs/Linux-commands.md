@@ -238,7 +238,7 @@ comm file1 file2          # Compare sorted files
 
 ```bash
 # Boot into recovery mode
-# At GRUB menu, select "Advanced options" → "Recovery mode"
+# At GRUB menu, select "Advanced options"  "Recovery mode"
 
 # Remount root filesystem as read-write
 mount -o remount,rw /
