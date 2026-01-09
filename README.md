@@ -39,7 +39,10 @@ EmergencyUSB/
 │   ├── puppy-linux.iso            (~500 MB)
 │   └── hirens-bootcd-pe.iso       (~2 GB)
 │
-├── AppImages/                      (~1 GB total)
+├── AI/                            (~8 GB total)
+│   ├── Models/
+|
+├── AppImages/                     (~1 GB total)
 │   ├── firefox.AppImage
 │   ├── libreoffice.AppImage
 │   ├── gparted.AppImage
@@ -85,7 +88,7 @@ EmergencyUSB/
 └── README.txt                     (this guide)
 ```
 
-Total approximate size: 20-25 GB minimum, leaving room for personal files.
+Total approximate size: 32 GB minimum.
 
 ## Emergency Quick Start
 
