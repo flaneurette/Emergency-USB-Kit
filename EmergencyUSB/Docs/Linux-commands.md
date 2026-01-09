@@ -472,7 +472,7 @@ umount /mnt/system
 reboot
 ```
 
-### 🔧 Fix Broken Package Manager
+### Fix Broken Package Manager
 
 ```bash
 # Debian/Ubuntu
