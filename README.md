@@ -13,6 +13,8 @@
 - Test before emergency: Verify your USB boots successfully on at least one computer
 - Update schedule: Refresh your kit every 6 months for latest drivers and security patches
 
+> NOTE: SLC NAND outperforms many newer USB sticks. Some SLC NAND sticks can survive 25+ years. But they might be more expensive and have less storage. If you can get them, do it.
+
 ## Recommended USB Structure
 
 ```
