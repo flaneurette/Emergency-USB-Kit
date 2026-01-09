@@ -4,7 +4,7 @@
 
 ### Requirements
 
-- If you can get **SLC NAND** USB sticks, (older, or industrial uses) get them instead of newer TLC/QLC NAND (wears much faster).
+- If you can get **SLC NAND** USB sticks, (older, rugged industrial uses) get them instead of newer TLC/QLC NAND (wears much faster).
 - 2 to 3 USB sticks of good quality. Minimum of 32GB, recommended: 64GB or 128GB a piece. Higher is possible, but they might fail quicker. Avoid anything above 512GB.
 - At least 2 USB sticks, because of the survival mantra: **one is none, two is one.**
 - If you need offline documentation, such as Wikipedia Kiwix, then i advise and extra SSD to store all those ZIM files.
