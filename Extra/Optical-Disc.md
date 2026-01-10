@@ -23,7 +23,7 @@ If you want long-lasting cold storage with a lifespan of 10-1000 years, I would 
 
 **Strategies to mitigate this:**
 
-- Store a USB optical drive with the discs as relatively cheap insurance
+- Store a USB optical drive with the discs as relatively cheap insurance (include drivers!)
 - Use common formats - Blu-ray M-DISCs are more likely to have legacy support than proprietary formats
 - Maintain multiple copies across different media types - don't put all your eggs in one basket
 - Perform periodic migration every 10-20 years by copying to whatever the current stable format is
