@@ -6,9 +6,13 @@
 
 ### Requirements
 
+- A USB SLC stick, or 2 TLC/QLC USB sticks 
+- https://ventoy.net for multi ISO boot from single stick.
+  
+### Recommended
+
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
 - Newer sticks (TLC/QLC) wear down much faster, by factor 10-100x minimal, sometimes up to 1000x.
-- Or SSD drives: https://pendrivelinux.com/fastest-usb-flash-drives/
 - 2 to 3 USB sticks of good quality. Minimum of 32GB, recommended: 64GB or 128GB a piece. Higher is possible, but they might fail quicker. Avoid anything above 512GB.
 - At least 2 USB sticks, because of the survival mantra: **one is none, two is one.**
 - If you need offline documentation, such as Wikipedia Kiwix, then i advise an extra SSD to store all those ZIM files.
@@ -17,7 +21,8 @@
 - Test before emergency: Verify your USB boots successfully on at least one computer
 - Update schedule: Refresh your kit every 6 months for latest drivers and security patches
 - https://ventoy.net for multi ISO boot from single stick.
-
+- SSD drives: https://pendrivelinux.com/fastest-usb-flash-drives/
+  
 > NOTE: SLC NAND outperforms many newer USB sticks. Some SLC NAND sticks can survive 25+ years. But they might be more expensive and have less storage. If you can get them, do it. Especially for sensitive files, such as: password databases, keys, documents, etc.
 
 ### Why USB technology matters.
