@@ -19,7 +19,7 @@
 - Perhaps a single day to create the two sticks.
 - Avoid cheap USB sticks, or microSD cards (they break or get lost quickly)
 - Test before emergency: Verify your USB boots successfully on at least one computer
-- Update schedule: Refresh your kit every 6 months for latest drivers and security patches
+- Update schedule: Refresh your kit every 6-12 months for latest drivers and security patches
 - https://ventoy.net for multi ISO boot from single stick.
 - SSD drives: https://pendrivelinux.com/fastest-usb-flash-drives/
   
