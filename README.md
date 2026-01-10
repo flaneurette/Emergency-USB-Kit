@@ -22,6 +22,12 @@
 > NOTE: Sticks with capacity above 16GB is usually TLC/QLC for consumers. SLC is hard to find, MLC might be best choice.
 > To find MLC: Google the datasheet of the stick, as they often won't say what type it is. Transcend often prints the type on the stick itself, making it easier to determine.
 
+### Brands
+```
+SLC: Swissbit, Digikey
+MLC: Transcend, Philips
+TLC: Any stick will do.
+```
 ### Recommended
 
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
