@@ -175,12 +175,15 @@ https://pendrivelinux.com/
 
 ## 2. Multi-Boot Setup with Ventoy
 
-Recommended: Use Ventoy to boot multiple ISOs from one USB without reformatting.
+Recommended: Use Ventoy to boot multiple ISOs from one USB.
 
 - Download: https://ventoy.net
+- Install it, see documentation on how to (save documentation!)
 - Simply copy ISO files to the USB drive
 - Boot menu automatically appears with all available ISOs
 - Supports persistent storage for live systems
+
+Documentation: https://www.ventoy.net/en/doc_start.html
 
 ---
 
