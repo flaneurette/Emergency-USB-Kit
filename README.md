@@ -87,7 +87,7 @@ EmergencyUSB/
 ├── Backups/                       (remaining space)
 │   └── important-files/
 │
-└── README.txt                     (this guide)
+└── README.md                      (this guide)
 ```
 
 Total approximate size: 32 GB minimum.
