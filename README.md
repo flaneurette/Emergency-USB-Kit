@@ -6,16 +6,19 @@
 
 ### Requirements
 
-- A USB SLC stick, or 2 TLC/QLC USB sticks 
+- 2 x USB SLC/MLC stick, or 4 x TLC/QLC USB sticks 
 - https://ventoy.net for multi ISO boot from single stick.
   
 ### Practical Idea
 
-- 1 or 2 x SLC or MLC 1GB-16GB stick: very sensitive files: keys, password databases, documents. (encrypted)
-- 2 x MLC/TLC/QLS USB sticks 64GB a piece: bootable ISO loader, /emergencyUSB/
-  
-> 64GB SLC/MLC is rare or too expensive, fall back to TLC or SSD, or run only one ISO/IMG per MLC stick.
-  
+```
+| Ammount|  Use Case                   | Size    | Best NAND                  | Notes                                                             |
+| -------|---------------------------- | ------- | -------------------------- | ----------------------------------------------------------------- |
+|   1-2x | Sensitive encrypted files   | 1-16 GB | SLC > MLC                  | Small capacity makes SLC affordable. Long retention + encrypted.  |
+|   2 x  | Bootable emergency ISO/USB  | 64 GB   | MLC if cheap, TLC fallback | ISO writes are infrequent. TLC is acceptable if price is right.   |
+|   1 x  | High-use or large backup    | ≥64 GB  | SSD or TLC USB3            | TLC/QLC cheaper, better for capacity, but not ideal for archival. |
+```
+
 ### Recommended
 
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
