@@ -34,7 +34,8 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 EmergencyUSB/
 ├── LiveOS/
 │   ├── ubuntu-24.04.iso           (~4 GB)
-|   ├── linux-mint.iso             (~3GB)
+|   ├── linux-mint.iso             (~3 GB)
+|   ├── FreeBSD.img                (~1.5 GB)
 │   ├── systemrescue.iso           (~1 GB)
 │   ├── tails.img                  (~1.5 GB)
 │   ├── puppy-linux.iso            (~500 MB)
