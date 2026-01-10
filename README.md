@@ -144,7 +144,7 @@ Best for: Very old computers, minimal resource usage
 
 ### DSL (damnsmalllinux) 50MB
 
-Yes, an ISO with a Linux OS just 50MB! (useful to have for older or embeded systems)
+Yes, an ISO with a Linux OS just 50MB! (useful to have for older or embedded systems)
 
 https://www.damnsmalllinux.org/
 
