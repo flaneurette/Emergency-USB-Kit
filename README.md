@@ -150,6 +150,10 @@ Yes, an ISO with a Linux OS just 50MB! (useful to have for older or embedded sys
 
 https://www.damnsmalllinux.org/
 
+### FreeBSD
+
+https://www.freebsd.org/where/
+
 ### Hiren's BootCD PE (Windows-based rescue)
 Best for: Windows password resets, Windows-specific repairs
 
