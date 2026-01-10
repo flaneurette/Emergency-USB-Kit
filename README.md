@@ -9,6 +9,13 @@
 - A USB SLC stick, or 2 TLC/QLC USB sticks 
 - https://ventoy.net for multi ISO boot from single stick.
   
+### Practical Idea
+
+- 1 or 2 x SLC or MLC 1GB-16GB stick: very sensitive files: keys, password databases, documents. (encrypted)
+- 2 x MLC/TLC/QLS USB sticks 64GB a piece: bootable ISO loader, /emergencyUSB/
+  
+> 64GB SLC/MLC is rare or too expensive, fall back to TLC or SSD, or run only one ISO/IMG per MLC stick.
+  
 ### Recommended
 
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
