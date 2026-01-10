@@ -142,6 +142,12 @@ Best for: Very old computers, minimal resource usage
 - 64-bit (newer machines): https://sourceforge.net/projects/pb-gh-releases/files/TrixiePup64Wayland_release/
 - Runs entirely in RAM, extremely fast
 
+### DSL (damnsmalllinux) 50MB
+
+Yes, an ISO with a Linux OS just 50MB! (useful to have for older or embeded systems)
+
+https://www.damnsmalllinux.org/
+
 ### Hiren's BootCD PE (Windows-based rescue)
 Best for: Windows password resets, Windows-specific repairs
 
