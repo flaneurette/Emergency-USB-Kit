@@ -12,7 +12,7 @@
 ### Practical Idea
 
 ```
-| Ammount|  Use Case                   | Size    | Best NAND                  | Notes                                                             |
+| Sticks |  Use Case                   | Size    | Best NAND                  | Notes                                                             |
 | -------|---------------------------- | ------- | -------------------------- | ----------------------------------------------------------------- |
 |   1-2x | Sensitive encrypted files   | 1-16 GB | SLC > MLC                  | Small capacity makes SLC affordable. Long retention + encrypted.  |
 |   2 x  | Bootable emergency ISO/USB  | 64 GB   | MLC if cheap, TLC fallback | ISO writes are infrequent. TLC is acceptable if price is right.   |
