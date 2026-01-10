@@ -28,6 +28,28 @@ SLC: Swissbit, Digikey
 MLC: Transcend, Philips
 TLC: Any stick will do.
 ```
+
+### Storage tips
+
+```
+Encryption:
+VeraCrypt/LUKS container on SLC/MLC stick
+Only mount when needed
+
+Labeling:
+Use dates and content description (no passwords!)
+
+Redundancy:
+Keep two sticks for sensitive files (mirrored)
+Keep two sticks for ISOs/tools (mirror or separate ISOs)
+
+Refresh yearly:
+Mount and rewrite sensitive files yearly to prevent flash cell aging
+
+Temperature & storage:
+Store in cool, dry place (avoid heat, sunlight, magnets) preferably in anti-static bag.
+```
+
 ### Recommended
 
 - If you can get **SLC NAND** USB sticks, (rugged industrial uses, military grade) get them instead of newer TLC/QLC NAND 
