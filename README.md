@@ -153,6 +153,8 @@ https://www.damnsmalllinux.org/
 ### Hiren's BootCD PE (Windows-based rescue)
 Best for: Windows password resets, Windows-specific repairs
 
+https://www.hirensbootcd.org/download/
+
 - Search for "Hiren's BootCD PE" (official site changes frequently)
 - Includes Windows PE environment with repair tools
 - Password reset utilities and disk tools
