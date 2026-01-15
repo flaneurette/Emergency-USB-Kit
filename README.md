@@ -83,14 +83,17 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ```
 EmergencyUSB/
 ├── LiveOS/
-│   ├── ubuntu-24.04.iso           (~4 GB)
-|   ├── linux-mint.iso             (~3 GB)
+│   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
+|   ├── linux-mint.iso             (~3 GB) - recommended
+|   ├── Qubes.iso                  (~7GB)
 |   ├── FreeBSD.img                (~1.5 GB)
-│   ├── systemrescue.iso           (~1 GB)
-│   ├── tails.img                  (~1.5 GB)
+│   ├── systemrescue.iso           (~1 GB) - recommended
+│   ├── tails.img                  (~1.5 GB) - might not work everywhere.
 │   ├── puppy-linux.iso            (~500 MB)
-│   ├── DSL.iso                    (~50 MB)
-│   └── hirens-bootcd-pe.iso       (~2 GB)
+|   ├── slax.iso                   (~500 MB)
+|   ├── tinycorelinux.iso          (~200 MB)
+│   ├── DSL.iso                    (~50 MB) - no UEFI!
+│   └── hirens-bootcd-pe.iso       (~2 GB) - recommended
 │
 ├── AI/                            (~8 GB total)
 │   ├── Models/
@@ -159,20 +162,29 @@ If you're in an emergency RIGHT NOW:
 
 These let you boot any PC into Linux without installing anything.
 
-### Ubuntu (general-purpose live) - ~4 GB
+### Ubuntu (general-purpose live) - ~4-7 GB
+
 Best for: General rescue, hardware support, everyday tasks
 
 - Download: https://ubuntu.com/download/desktop
 - Great hardware support and easy to use
 
 ### Linux Mint (user-friendly live) - ~3 GB
+
 Best for: Users familiar with Windows interface
 
 - Download: https://linuxmint.com/
 - Based on Ubuntu, lots of drivers included
 - Familiar desktop environment for Windows users
 
+### Qubes OS
+
+About 7GB, full OS.
+
+https://www.qubes-os.org/
+
 ### SystemRescue (specialized rescue tools) - ~1 GB
+
 Best for: System repair, data recovery, disk management
 
 - Download: https://system-rescue.org/
@@ -181,6 +193,9 @@ Best for: System repair, data recovery, disk management
 - Includes GParted, TestDisk, network tools, and more
 
 ### Tails OS (privacy-focused) - ~1.5 GB
+
+> Cons: might not work on all systems! test first!
+
 Best for: Anonymous browsing, privacy-critical situations
 
 - Download: https://download.tails.net/tails/stable/tails-amd64-7.3.1/tails-amd64-7.3.1.img
@@ -189,6 +204,7 @@ Best for: Anonymous browsing, privacy-critical situations
 - Routes all connections through Tor network
 
 ### Puppy Linux (lightweight for old hardware) - ~300-500 MB
+
 Best for: Very old computers, minimal resource usage
 
 - 32-bit (older machines): https://sourceforge.net/projects/pb-gh-releases/files/TrixiePup32Retro_release/
@@ -197,9 +213,23 @@ Best for: Very old computers, minimal resource usage
 
 ### DSL (damnsmalllinux) 50MB
 
+> Note: does not support UEFI!
+
 Yes, an ISO with a Linux OS just 50MB! (useful to have for older or embedded systems)
 
 https://www.damnsmalllinux.org/
+
+### Slax Linux
+
+Under 500MB ISO
+
+https://www.slax.org/#getslax
+
+### Tiny Core Linux
+
+20MB to 250MB (very small)
+
+http://tinycorelinux.net/downloads.html
 
 ### FreeBSD
 
