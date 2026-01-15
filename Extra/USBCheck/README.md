@@ -1,6 +1,12 @@
 # USB Detect
 
-Profiles your USB sticks to detect vendor, chip version.
+The quickest way to determine your chip and NAND type, is searching online for your product's code datasheet i.e. search online for: "HS82304 datasheet" and read it to see if they mention NAND type.
+
+If your stick can store more than 32GB, chances are it's TLC/QLC by default, especially if it was cheap. Everything above 32GB is really expensive for SLC and MLC.
+
+# Otherwise
+
+The attached scripts profiles your USB sticks to detect vendor, chip version.
 
 Note: USB devices might be cached, might not always work if you run these scripts.
 
