@@ -11,7 +11,16 @@
 6. Fire safety - Fireproof caulk or foam helps slow the spread of fire between units by sealing penetrations in fire-rated walls.
    
 8. Dangerous gases - Any gas from another unit/house cannot enter, which might save your life. Some gases cannot be smelled.
-   
+  
+  
+Mice: Can get through holes as small as a ~6 mm (¼ inch). The diameter of a pencil!
+
+Rats: Can squeeze through openings about the size of a quarter, 12–20 mm (½ inch).
+
+What this means for homeowners:
+
+Sealing even small gaps with materials like caulk, steel mesh, cement, or proper door sweeps is crucial for prevention, as they can exploit almost any tiny opening. 
+	
 ---
 
 ### Caution
