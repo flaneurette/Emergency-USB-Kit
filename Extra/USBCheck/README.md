@@ -1,6 +1,6 @@
 # USB Detect
 
-Profiles your USB sticks to detect vendor, chip, nand version.
+Profiles your USB sticks to detect vendor, chip version.
 
 Note: USB devices might be cached, might not always work if you run these scripts.
 
