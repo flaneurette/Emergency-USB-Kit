@@ -89,9 +89,9 @@ EmergencyUSB/
 |   ├── FreeBSD.img                (~1.5 GB)
 │   ├── systemrescue.iso           (~1 GB) - recommended
 │   ├── tails.img                  (~1.5 GB) - might not work everywhere.
-│   ├── puppy-linux.iso            (~500 MB)
+│   ├── puppy-linux.iso            (~500 MB) - recommended
 |   ├── slax.iso                   (~500 MB)
-|   ├── tinycorelinux.iso          (~200 MB)
+|   ├── tinycorelinux.iso          (~200 MB) - no UEFI!
 │   ├── DSL.iso                    (~50 MB) - no UEFI!
 │   └── hirens-bootcd-pe.iso       (~2 GB) - recommended
 │
@@ -226,6 +226,8 @@ Under 500MB ISO
 https://www.slax.org/#getslax
 
 ### Tiny Core Linux
+
+> Note: does not support UEFI!
 
 20MB to 250MB (very small)
 
