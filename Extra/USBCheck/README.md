@@ -11,7 +11,7 @@ Be careful with **ChipGenius**, as some versions have been reported to contain m
 Open PowerShell as Administrator and run:
 
 ```
-cd %USERPROFILE%\Desktop
+cd Desktop
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
