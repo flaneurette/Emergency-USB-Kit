@@ -17,3 +17,11 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 .\usb-detect.ps1
 ```
+
+If you cannot extract the VID or PID, try temple:
+
+https://the-sz.com/products/temple/
+
+And also scan it with virustotal before running it, to be sure. Extra advice: download sandboxy, and run it sanboxed. (just in case)
+
+Sandboxy: https://sandboxie-plus.com/
