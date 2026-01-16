@@ -2,7 +2,7 @@
 
 We can check all files on the stick to see if they aren't corrupted by making checksums. Useful, if we later want to verify if the stick is still sane and in tact. Flash drives may degrade over time.
 
-1. Move the two scripts to the root of the USB stick.
+1. Move the two scripts **to the root** of the USB stick. Do **not** keep it in this folder.
 
 2. When you have added all files to the USB stick, run `hash.bat` **once** to generate checksums for all files.
 
