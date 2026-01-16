@@ -118,10 +118,10 @@ EmergencyUSB/
 |
 ├── Software/
 │   ├── 7z.msi (required to unzip windows stuff)
-│   ├── PeaZip.msi (backup in case 7z is corrupted)
+│   ├── peazip-10.8.0.WIN64.exe (backup in case 7z is corrupted)
 │   ├── 7z.exe (alternative)
 │   ├── 7z2501-linux-x64.tar.xz (linux)
-│   ├── 7z2501-x64.exe
+│   ├── 7z2501-x64.exe (alternative)
 │   ├── comet_installer_latest.exe
 │   ├── Core-Temp-setup-v1.19.5.69.exe
 │   ├── FedoraMediaWriter-win64-5.2.9.exe
@@ -132,12 +132,11 @@ EmergencyUSB/
 │   ├── KeePassXC-2.7.11-Win64.msi
 │   ├── LiberKey_5.8.1129.exe
 │   ├── Ninite 7Zip AVG AnyDesk Avast Avira Brave CCleaner Installer.exe
-│   ├── npp.8.9.Installer.x64.exe
-│   ├── peazip-10.8.0.WIN64.exe
+│   ├── npp.8.9.Installer.x64.exe (notepadd++)
 │   ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
 │   ├── rufus-4.11.exe
 │   ├── rufus-4.11p.exe (portable)
-│   ├── Sandboxie-Classic-x64-v5.71.9.exe
+│   ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
 │   ├── Sandboxie-Plus-x64-v1.16.9.exe
 │   ├── SumatraPDF-3.5.2-64-install.exe
 │   ├── tailscale-setup-1.92.5.exe
