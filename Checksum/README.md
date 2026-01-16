@@ -4,7 +4,7 @@ We can check all files on the stick to see if they aren't corrupted by making ch
 
 1. Move the two scripts to the root of the USB stick.
 
-2. When you have added all files to the USB stick, run `hash.bat` once to generate checksums for all files.
+2. When you have added all files to the USB stick, run `hash.bat` **once** to generate checksums for all files.
 
 3. Next time, run `verify.bat` to verify if all files are in tact and not corrupted. 
 
