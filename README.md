@@ -81,6 +81,10 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ## Recommended USB Structure
 
 ```
+root
+hash.bat (checksumming)
+verify.bat (checksumming)
+|
 EmergencyUSB/
 ├── LiveOS/
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
