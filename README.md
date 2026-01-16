@@ -109,7 +109,8 @@ EmergencyUSB/
 │   ├── keepassxc.AppImage
 │   └── etcher.AppImage
 │
-├── WindowsPortable/                (~2 GB)
+├── WindowsPortable/                (~2 GB) - it is better to make a big ZIP file of it,
+                                              as it contains thousands of small files!
 │   ├── PortableApps/
 │   ├── EmergencyKit/              (Emsisoft)
 │   ├── PuTTYPortable/
