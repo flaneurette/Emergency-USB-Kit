@@ -12,6 +12,8 @@ We can check all files on the stick to see if they aren't corrupted by making ch
 
 # Limitations
 
+Please note: checksumming may take a while, espcially if you have a lots of files. Even with MD5, it can be slow. But it is a one time run. If possbile make zip files instead of copying a folder with thousands of tiny files. Easier to copy, and calculate!
+
 All hases are written to `hashes.md5` keep this file also in the root.
 
 Check this file if there is weird data in it before storing. There should be just checksums and filepaths. Nothing else.
