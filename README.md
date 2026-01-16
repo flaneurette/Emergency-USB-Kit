@@ -29,7 +29,7 @@ MLC: Transcend, Philips
 TLC: Any stick will do.
 ```
 
-> TIP: I found that the phased out "Philips Vivid" series (4GB to 32GB) does have true MLC. Above 64GB it seems to be TLC. 32GB now sells at about 6 euros, very cheap for true MLC. These sticks may sell out quickly, as TLC is now standard. Check out the datasheet on Google: "FM32FD05B datasheet" for 32GB.
+> TIP: I found that the phased out "Philips Vivid" series (4GB to 32GB) does have true MLC. Above 32GB it seems to be TLC. 32GB now sells at about 5-6 euros, very cheap for true MLC. These sticks may sell out quickly, as TLC is now standard. Check out the datasheet on Google: "FM32FD05B datasheet" for 32GB.
 
 
 ### Storage tips
