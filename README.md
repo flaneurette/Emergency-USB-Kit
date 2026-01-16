@@ -182,7 +182,9 @@ EmergencyUSB/
 └── README.md                      (this guide)
 ```
 
-Total approximate size: 32 GB minimum.
+Total approximate size: 12-24 GB minimum, depending on files. 
+
+> It is a good idea to leave a few GBs untouched for writing, and the USB is also faster with less files.
 
 ## Emergency Quick Start
 
