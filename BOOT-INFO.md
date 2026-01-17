@@ -124,6 +124,7 @@ If:
 
 Try:
 
+0. Remove any USB applicances, printers, hubs. (only the stick)
 1. Power off completely
 2. Unplug power
 3. Remove battery (if possible)
