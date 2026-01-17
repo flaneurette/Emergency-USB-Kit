@@ -164,6 +164,7 @@ EmergencyUSB/
 │   └── wifi-drivers/
 │
 ├── Scripts/
+│   ├── Batch Collection: https://github.com/fkie-cad/windowsScripts
 │   ├── backup.sh
 │   ├── mount-all.sh
 │   ├── network-reset.sh
