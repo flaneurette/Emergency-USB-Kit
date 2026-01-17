@@ -1,6 +1,6 @@
 # COMMON BOOT & BIOS KEYS (CHEAT SHEET)
 
-> If UEFI is not supported, some Linux versions, disable it in BIOS: Secure Boot settings, diable.
+> If UEFI is not supported, some Linux versions, disable it in BIOS: Secure Boot settings, disable.
 
 ## 1. BOOT MENU (ONE-TIME BOOT DEVICE SELECTION)
 
