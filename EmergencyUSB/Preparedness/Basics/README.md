@@ -1,6 +1,27 @@
 # Practical Advice
 
 Always follow your governmental advisory first, use this only if there is no advisory.
+
+### 0. War
+
+* Maintain civilian status: Do not engage in combat, gather intelligence for military forces, or perform acts that constitute "direct participation in hostilities".
+* Never photograph or film the enemy, unless they cannot see you.
+* Never potographs or film any enemy equipment, dangerous materials, drones, planes, routes, bases.
+* Never sport/show a weapon to the enemy. ANy weapon, no matter how small. (like knives)
+* Avoid conflict zones: If possible, detour around known combat areas.
+* Keep a low profile: Limit noise, movement, and visible signs of life in contested areas.
+* Travel in safe groups: Avoid solo movement in high-risk zones.
+* Avoid military-style clothing, gear, or symbols if possible.
+* Do not imitate soldiers in posture, movement, or behavior.
+* Emergency extraction plan: Know safe routes to evacuation points, shelters, or neutral zones.
+* Never pick up or touch army materials, such as grenades, bullets, casings, mines, drones. etc.
+* Never go to the location where a drone or enemy plane crashed. Notify the government.
+* If you see military materials, maintain at least 1000 feet distance, mark or warn others if safe to do so, and report immediately to authorities
+* Never transmit radio frequencies (cell phones, radios) near suspected enemy positions, UXO.
+* Never transmit near suspected drones, planes, IEDs or booby-trapped areas. Some devices pick up (cell, radio, radar) frequencies and may detonate.
+* If captured, try to cooperate, do not provoke enemy. Do not give any secret information: you just don't know anything.
+* Have a neutral smartphone: do not store national symbols, flags, nationalist GUI themes, emblems, logos, group affiliations, resistance documents/logos, war paraphenelia.
+  (you might be seen as army personel, secret service. etc.) 
   
 ### 1. Rubble Survival - Safely Navigate Collapsed Buildings
 
@@ -86,7 +107,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 * Rotation plan: Know exit routes and alternative shelters.
 * Noise and light discipline: Avoid attracting attention during conflict situations.
 * Avoid derelict / vacant / empty buildings at all costs. **They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops.**
-
+  
 ---
 
 ### 7. General Survival Advice - First Aid, Water, Food, Communication
@@ -96,5 +117,5 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 * Food: High-calorie, non-perishable rations; rotate supply regularly.
 * Communication: Use radios, offline maps, signal mirrors, whistles, or pre-arranged check-ins.
 * Stay calm: Planning and methodical actions save more lives than haste or panic.
-
+  
 ---
