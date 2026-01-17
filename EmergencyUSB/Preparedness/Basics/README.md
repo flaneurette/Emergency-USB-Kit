@@ -7,7 +7,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Maintain civilian status: Do not engage in combat, gather intelligence for military forces, or perform acts that constitute "direct participation in hostilities".
 * Never photograph or film the enemy, unless they cannot see you.
 * Never potographs or film any enemy equipment, dangerous materials, drones, planes, routes, bases.
-* Never sport/show a weapon to the enemy. ANy weapon, no matter how small. (like knives)
+* Never sport/show a weapon to the enemy. Any weapon, no matter how small. (like knives, batons.)
 * Avoid conflict zones: If possible, detour around known combat areas.
 * Keep a low profile: Limit noise, movement, and visible signs of life in contested areas.
 * Travel in safe groups: Avoid solo movement in high-risk zones.
