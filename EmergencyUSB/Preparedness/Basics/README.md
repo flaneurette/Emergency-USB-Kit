@@ -2,7 +2,7 @@
 
 Always follow your governmental advisory first, use this only if there is no advisory.
 
-### 1. Rubble Survival – Safely Navigate Collapsed Buildings
+### 1. Rubble Survival - Safely Navigate Collapsed Buildings
 
 * Do not ignore an "air alert" siren or text message. Get out and go to shelter.
 * Calm down, rescue crews need time to asses.
@@ -20,7 +20,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 
 ---
 
-### 2. Nuclear / Chemical Attacks – Protection & Dos / Don’ts
+### 2. Nuclear / Chemical Attacks - Protection & Dos / Don’ts
 
 **If you look outside and notice a bright flash, immediately look away. Do not look at it again, as it might burn your eyes permanently and cause blindness**
 
@@ -40,7 +40,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 
 ---
 
-### 3. Capture / Kidnapping – Survival Strategies
+### 3. Capture / Kidnapping - Survival Strategies
 
 * Stay aware: Avoid dangerous situations when possible.
 * Keep calm: Stress and panic increase risk of injury.
@@ -50,7 +50,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 
 ---
 
-### 4. Digital Safety – Smartphone Precautions
+### 4. Digital Safety - Smartphone Precautions
 
 * Remove sensitive info: Do not store photos, symbols, or documents related to your identity, nationality, or affiliations. (no national emblems, flags, group affiliations) Act neutral.
 * If you contacted your government, instantly erase the e-mail, sms, chat, phonecall or text message. (they might assume you are related to the government when captured)
@@ -61,17 +61,17 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 
 ---
 
-### 5. Emergency Documents – What to Carry & How to Store
+### 5. Emergency Documents - What to Carry & How to Store
 
 * Essential papers: ID/passport, medical info, insurance, emergency contacts, property records.
 * Digital copies: Store encrypted on USB or offline device.
 * Physical backup: Laminated copies or waterproof bags.
 * Organization: Keep in a single, accessible folder labeled clearly.
-* Update regularly: Every 6–12 months or after major life changes.
+* Update regularly: Every 6-12 months or after major life changes.
 
 ---
 
-### 6. Shelter – Locations, Tips & Preparation
+### 6. Shelter - Locations, Tips & Preparation
 
 * Identify nearest shelters: Public bunkers, basements, or secure indoor areas.
 * Check structural safety: Avoid unstable buildings.
@@ -82,7 +82,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 
 ---
 
-### 7. General Survival Advice – First Aid, Water, Food, Communication
+### 7. General Survival Advice - First Aid, Water, Food, Communication
 
 * First aid: Keep a basic kit, know CPR and bleeding control, treat injuries promptly.
 * Water: Carry purification tablets, filters, or boil water before drinking.
