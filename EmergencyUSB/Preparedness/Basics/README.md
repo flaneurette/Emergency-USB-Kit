@@ -9,6 +9,7 @@ Do not ignore an "air alert" siren or government text message. Follow instructio
 * Calm down, rescue crews need time to asses.
 * Do not try to move rubble nor diassemble things.
 * Do not move ceilings or beams
+* Do not move if the building is extremely unstable
 * Assess before moving: Look for stable paths, avoid leaning walls and hanging debris.
 * Move slowly and deliberately: Test each step; avoid sudden shifts that may trigger collapses.
 * Protect head and limbs: Use helmet, thick clothing, or even improvised padding.
