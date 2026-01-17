@@ -1,6 +1,6 @@
 # Prepardness files
 
-Put your documents in this folder. Such as: government advice on preparedness, phone numbers, (surival kit) instructions, leaflets, emergency shelter locations.
+Put your documents in this folder. Such as: government advice on preparedness, phone numbers, (survival kit) instructions, leaflets, emergency shelter locations.
 
 ### Ukraine advisories
 
