@@ -25,11 +25,12 @@
 ### Brands
 ```
 SLC: Swissbit, Digikey
-MLC: Transcend, Philips
+pSLC: Swissbit, Digikey
+MLC: Transcend, Philips, some Kingston variants.
 TLC: Any stick will do.
 ```
 
-> TIP: I found that the phased out "Philips Vivid" series (4GB to 32GB) does have true MLC. Above 32GB it seems to be TLC. 32GB now sells at about 5-6 euros, very cheap for true MLC. These sticks may sell out quickly, as TLC is now standard. Check out the datasheet on Google: "FM32FD05B datasheet" for 32GB.
+> TIP: I found that the phased out "Philips Vivid" series (4GB to 32GB) does have MLC. Above 32GB it seems, this series becomes TLC. 16GB-32GB now sells at about 5-6 euros, very cheap for MLC. These sticks may sell out quickly, as TLC is now standard. Check out the datasheet on Google: "FM32FD05B datasheet" for 32GB.
 
 
 ### Storage tips
