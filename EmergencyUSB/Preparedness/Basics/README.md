@@ -46,7 +46,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 * Keep calm: Stress and panic increase risk of injury.
 * Observe captors: Note routines, weaknesses, exits, or potential help.
 * Small compliance: **Avoid provoking captors**; cooperate, pick safe moments to act. Even staring can make captors feel uneasy about you.
-* Signal discreetly: If possible, leave traces, marks, or notes to indicate location or condition.
+* Signal discreetly: If possible, leave traces, marks, or notes to indicate location or condition. (you maybe be punished if discovered)
 
 ---
 
