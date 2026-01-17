@@ -59,6 +59,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Stock essentials: Water, food, first aid, flashlight, communication devices.
 * Rotation plan: Know exit routes and alternative shelters.
 * Noise and light discipline: Avoid attracting attention during conflict situations.
+* Avoid delerlict buildings at all costs.
 
 ---
 
