@@ -72,10 +72,10 @@ Store in cool, dry place (avoid heat, sunlight, magnets) preferably in anti-stat
 
 ### Why USB technology matters.
 
-- SLC NAND: Minimum lifespan: 5-7 years, (I owned a 64MB SLC stick that lasted 25+ years). Military grade.
-- MLC NAND: Minimum lifespan: 2 year. Enterprise grade.
-- TLC NAND: Minimum lifespan: 1 year. Consumer grade.
-- QLC NAND: Minimum lifespan: 1 year. Consumer grade.
+- SLC NAND: Minimum lifespan: 5-7 years, (average lifespan: 10 years) (I owned a 64MB SLC stick that lasted 25+ years). Military grade.
+- MLC NAND: Minimum lifespan: 2 year. Enterprise grade. (average lifespan: 5 years)
+- TLC NAND: Minimum lifespan: 1 year. Consumer grade. (average lifespan: 1-2 years)
+- QLC NAND: Minimum lifespan: 1 year. Consumer grade. (average lifespan: 6 months to 1 year)
 
 You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, and otherwise: TLC/QLC (but then buy 4-5 sticks and make duplicates of the master USB and stow them away)
 
