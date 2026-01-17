@@ -1,10 +1,11 @@
 # Practical Advice
 
 Always follow your governmental advisory first, use this only if there is no advisory.
-
+  
 ### 1. Rubble Survival - Safely Navigate Collapsed Buildings
 
-* Do not ignore an "air alert" siren or text message. Get out and go to shelter.
+Do not ignore an "air alert" siren or government text message. Follow instructions, or get out and go to shelter. (does not apply to nuclear attacks)
+
 * Calm down, rescue crews need time to asses.
 * Do not try to move rubble nor diassemble things.
 * Do not move ceilings or beams
