@@ -52,7 +52,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 
 ### 4. Digital Safety – Smartphone Precautions
 
-* Remove sensitive info: Do not store photos, symbols, or documents related to your identity, nationality, or affiliations.
+* Remove sensitive info: Do not store photos, symbols, or documents related to your identity, nationality, or affiliations. (no national emblems, flags, group affiliations) Act neutral.
 * Use strong passwords: Enable device encryption.
 * Offline storage: Keep backups on secure USBs or encrypted SD cards.
 * Minimal connectivity: Turn off location tracking and unnecessary network access.
