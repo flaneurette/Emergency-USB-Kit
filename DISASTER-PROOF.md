@@ -1,15 +1,14 @@
 # EmergencyUSB – Disaster-Proof README
 
-This USB is designed for extreme emergencies:
-
-* war or armed conflict
-* long-term power or internet outages
-* infrastructure collapse
-* disaster recovery when no help is available
-* extreme computer failure
-* AI/ML botnet attacks, ransomware
-* mobbing, looting, civil unrest, civil war.
-* under scrutiny by governments or secret agencies.
+* This USB is designed for extreme emergencies:
+* Armed conflict or war
+* Long-term power, network, or internet outages
+* Severe infrastructure degradation or collapse
+* Disaster recovery with no external assistance
+* Catastrophic computer or storage failure
+* Large-scale malware incidents (e.g. ransomware, botnets, automated attacks)
+* Civil instability (e.g. unrest, looting, forced displacement)
+* High-scrutiny environments, including monitoring by state or institutional actors
 
 It assumes:
 
