@@ -106,7 +106,7 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 * Stock essentials: Water, food, first aid, flashlight, communication devices.
 * Rotation plan: Know exit routes and alternative shelters.
 * Noise and light discipline: Avoid attracting attention during conflict situations.
-* Avoid derelict / vacant / empty buildings at all costs. **They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops. (often a sniper nest)**
+* Avoid derelict / vacant / empty buildings at all costs. **They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops. (often a sniper nest), and maybe be bombing targets**
   
 ---
 
