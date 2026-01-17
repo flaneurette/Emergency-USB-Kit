@@ -213,6 +213,12 @@ If you're in an emergency RIGHT NOW:
 5. Forgot Windows password? - Boot SystemRescue or Hiren's BootCD PE
 
 ---
+### Windows ISO
+
+Download media creation tool and generate an ISO:
+
+https://www.microsoft.com/en-us/software-download/windows10
+https://go.microsoft.com/fwlink/?LinkId=2265055
 
 ## 1. Bootable Live Linux Distributions
 
