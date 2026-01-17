@@ -5,7 +5,7 @@
 
 > Goal: have emergency access to computer services for at least **5 years continuously** (extreme long and persistent situation)
 
-> Due to copyrights and so on, I cannot add all software in this repo. Please download ISOs/exe yourself. (always get the latest anyway)
+> Due to copyrights and so on, I cannot add all software in this repo. Please download ISOs/exe yourself. (always get the latest anyway and support the author(s) where possible)
 
 ### Requirements
 
