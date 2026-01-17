@@ -99,6 +99,7 @@ EmergencyUSB/
 |   ├── slax.iso                   (~500 MB)
 |   ├── tinycorelinux.iso          (~200 MB) - no UEFI!
 │   ├── DSL.iso                    (~50 MB) - no UEFI!
+│   ├── Ophcrack.iso               (~500 MB) - Windows password cracker (rainbow tables)
 │   └── hirens-bootcd-pe.iso       (~2 GB) - recommended
 │
 ├── AI/                            (~8 GB total)
@@ -124,7 +125,8 @@ EmergencyUSB/
 │   ├── 7z.exe (alternative)
 │   ├── 7z2501-linux-x64.tar.xz (linux)
 │   ├── 7z2501-x64.exe (alternative)
-│   ├── comet_installer_latest.exe
+│   ├── Antivirus: Avira, Eset or ClamAV. (portable if possible)
+│   ├── comet_installer_latest.exe (browser)
 │   ├── Core-Temp-setup-v1.19.5.69.exe
 │   ├── FedoraMediaWriter-win64-5.2.9.exe
 │   ├── FirefoxPortable_146.0.1_English.paf.exe
@@ -133,24 +135,27 @@ EmergencyUSB/
 │   ├── KeePass-2.60.zip
 │   ├── KeePassXC-2.7.11-Win64.msi
 │   ├── LiberKey_5.8.1129.exe
-│   ├── Ninite 7Zip AVG AnyDesk Avast Avira Brave CCleaner Installer.exe
+│   ├── Ninite Package: 7Zip AVG AnyDesk Avast Avira Brave CCleaner Installer.exe
 │   ├── npp.8.9.Installer.x64.exe (notepadd++)
+│   ├── MBsetup.exe (Malwarebytes)
 │   ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
+│   ├── rcsetup.exe (recuva free)
 │   ├── rufus-4.11.exe
 │   ├── rufus-4.11p.exe (portable)
-│   ├── Avira, Eset or ClamAV. (portable if possible)
-│   ├── Malwarebytes.exe
 │   ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
 │   ├── Sandboxie-Plus-x64-v1.16.9.exe
 │   ├── SumatraPDF-3.5.2-64-install.exe
+│   ├── SDI_1.26.0.7z (Snappy drivers Lite, offline drivers)
 │   ├── tailscale-setup-1.92.5.exe
-│   ├── Temple.zip
+│   ├── testdisk-7.3-WIP.win.zip (PhotoRec, disk testing tools)
+│   ├── Temple.zip (USB disk checker)
 │   ├── teracopy.exe
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe.asc (checksum)
 │   ├── TreeSizeFreeSetup.exe
 │   ├── WinSCP-6.5.5-Setup.exe
 │   ├── YUMI-exFAT-1.0.3.3.exe
+│   ├── wireshark-portable-win64-4.4.9-20-setup.exe
 │   └── etc.
 |
 ├── Tools/
