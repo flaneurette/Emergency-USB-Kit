@@ -76,8 +76,8 @@ If data matters: copy first, repair later.
 
 ### Common fixes:
 
-* Disk errors → `chkdsk` or LiveOS disk tools
-* Drivers missing → Snappy Driver Installer
+* Disk errors -> `chkdsk` or LiveOS disk tools
+* Drivers missing -> Snappy Driver Installer
 
 ### Reinstall Windows:
 
