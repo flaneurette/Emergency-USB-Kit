@@ -33,6 +33,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Limit exposure: Stay indoors, avoid smoke, dust, or fallout.
 * Decontaminate: Remove clothing, wash exposed skin thoroughly if contaminated.
 * Stay informed: Use a battery-powered radio or offline-prepared alerts.
+* You can use **tapwater** to clean yourself, but **do not drink** it unless the government says so.
 
 If possible, create distance, but only if it's safe to do so. Especially when **chemicals** are involved. Chemical/gas attacks may seep into all buildings within seconds to minutes, even sealed and high-rise ones, so creating distance fast is a lifesaving opportunity. If a serious chemical spill happens nearby, creating distance with a vehicle might be a good idea. Clouds drift slowly, can take minutes to hours.
 
