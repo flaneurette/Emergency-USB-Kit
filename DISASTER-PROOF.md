@@ -8,6 +8,7 @@ This USB is designed for extreme emergencies:
 * Catastrophic computer or storage failure
 * Large-scale malware incidents (e.g. ransomware, botnets, automated attacks)
 * Civil instability (e.g. unrest, looting, forced displacement)
+* Future ML/AI attacks on infrastructure, ISP outages, hackers.
 * High-scrutiny environments, including monitoring by state or institutional actors
 * Long term survival
 * Home/office IT/computer/disk failure. Most modern PCs use SSD drives, which have limited lifespans
