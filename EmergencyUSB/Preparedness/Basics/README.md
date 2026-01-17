@@ -12,6 +12,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Avoid conflict zones: If possible, detour around known combat areas.
 * Keep a low profile: Limit noise, movement, and visible signs of life in contested areas.
 * Travel in safe groups: Avoid solo movement in high-risk zones.
+* Stay off key roads: entry points into city or town, often the army uses/bombs these roads. Avoid bridges, trains, tunnels, airplanes, if you can.
 * Avoid military-style clothing, gear, or symbols if possible.
 * If you see army equipment, drones materials, plane materials, do not shelter near it. (bombing targets)
 * Do not go near known army caches, factories, drone factories, drone testing sites, bases, or off-road paths to bases (bombing targets)
