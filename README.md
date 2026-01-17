@@ -127,6 +127,7 @@ EmergencyUSB/
 │   ├── Antivirus: Avira, Eset or ClamAV. (portable if possible)
 │   ├── comet_installer_latest.exe (browser)
 │   ├── Core-Temp-setup-v1.19.5.69.exe
+│   ├── Eraser 6.2.0.2996.exe
 │   ├── FedoraMediaWriter-win64-5.2.9.exe
 │   ├── FirefoxPortable_146.0.1_English.paf.exe
 │   ├── gpg4win-4.4.1.exe
@@ -138,6 +139,7 @@ EmergencyUSB/
 │   ├── npp.8.9.Installer.x64.exe (notepadd++)
 │   ├── MBsetup.exe (Malwarebytes)
 │   ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
+│   ├── Quickhash-GUI-Windows-v3.3.4.zip
 │   ├── rcsetup.exe (recuva free)
 │   ├── rufus-4.11.exe
 │   ├── rufus-4.11p.exe (portable)
@@ -145,6 +147,7 @@ EmergencyUSB/
 │   ├── Sandboxie-Plus-x64-v1.16.9.exe
 │   ├── SumatraPDF-3.5.2-64-install.exe
 │   ├── SDI_1.26.0.7z (Snappy drivers Lite, offline drivers)
+│   ├── syncthing-windows-setup.exe
 │   ├── tailscale-setup-1.92.5.exe
 │   ├── testdisk-7.3-WIP.win.zip (PhotoRec, disk testing tools)
 │   ├── Temple.zip (USB disk checker)
@@ -152,9 +155,12 @@ EmergencyUSB/
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe.asc (checksum)
 │   ├── TreeSizeFreeSetup.exe
+│   ├── VeraCrypt Portable 1.26.24.exe
+│   ├── vlc-3.0.23-win32.zip
 │   ├── WinSCP-6.5.5-Setup.exe
 │   ├── YUMI-exFAT-1.0.3.3.exe
 │   ├── wireshark-portable-win64-4.4.9-20-setup.exe
+│   ├── windowsScripts-master.zip
 │   └── etc.
 |
 ├── Tools/
