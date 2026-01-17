@@ -12,6 +12,8 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Keep a low profile: Limit noise, movement, and visible signs of life in contested areas.
 * Travel in safe groups: Avoid solo movement in high-risk zones.
 * Avoid military-style clothing, gear, or symbols if possible.
+* If you see army equipment, drones materials, plane materials, do not shelter near it. (bombing targets)
+* Do not go near known army caches, factories, drone factories, drone testing sites, bases, or off-road paths to bases (bombing targets)
 * Do not imitate soldiers in posture, movement, or behavior.
 * Emergency extraction plan: Know safe routes to evacuation points, shelters, or neutral zones.
 * Never pick up or touch army materials, such as grenades, bullets, casings, mines, drones. etc.
@@ -106,7 +108,8 @@ A building does NOT automatically protect you against chemical gasses/weapons.
 * Stock essentials: Water, food, first aid, flashlight, communication devices.
 * Rotation plan: Know exit routes and alternative shelters.
 * Noise and light discipline: Avoid attracting attention during conflict situations.
-* Avoid derelict / vacant / empty buildings at all costs. **They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops. (often a sniper nest), and maybe be bombing targets**
+* Avoid derelict / vacant / empty buildings at all costs. **They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops. (often a sniper nest), and may be bombing targets**
+* If you see army equipment, drones materials, plane materials, do not shelter near it. (bombing target)
   
 ---
 
