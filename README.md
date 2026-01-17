@@ -186,7 +186,7 @@ EmergencyUSB/
 │   ├── recovery-notes.txt
 │   ├── network-troubleshooting.pdf
 │   └── first-aid.pdf
-├── Preparedness/                <- download these from governmental websites (your local readiness docs)
+├── Preparedness/   <- download these from governmental websites (your local readiness docs)
 │   ├── community_disaster_preparedness_guide.pdf
 │   ├── ready_gov_emergency_supply_list.pdf
 │   ├── ready_gov_family_plan.pdf
