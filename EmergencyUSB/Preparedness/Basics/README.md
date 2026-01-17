@@ -36,7 +36,9 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Take shower if possible
 * You can use **tapwater** to clean yourself, but **do not drink** it unless the government says so.
 
-If possible, create distance, but only if it's safe to do so. Especially when **chemicals** are involved. Chemical/gas attacks may seep into all buildings within seconds to minutes, even sealed and high-rise ones, so creating distance fast is a lifesaving opportunity. If a serious chemical spill happens nearby, creating distance with a vehicle might be a good idea. Clouds drift slowly, can take minutes to hours.
+Chemicals:
+
+If possible, create distance, but only if it's safe to do so. Especially when **chemicals or gasses** are involved. Chemical/gas attacks may seep into all buildings within seconds to minutes, even sealed and high-rise ones, so creating distance fast is a lifesaving opportunity. If a serious chemical spill happens nearby, creating distance with a vehicle might be a good idea. Clouds drift slowly, can take minutes to hours.
 
 A building does NOT automatically protect you against chemical gasses/weapons.
 
