@@ -4,6 +4,10 @@ Always follow your governmental advisory first, use this only if there is no adv
 
 ### 1. Rubble Survival – Safely Navigate Collapsed Buildings
 
+* Do not ignore an "air alert" siren or text message. Get out and go to shelter.
+* Calm down, rescue crews need time to asses.
+* Do not try to move rubble nor diassemble things.
+* Do not move ceilings or beams
 * Assess before moving: Look for stable paths, avoid leaning walls and hanging debris.
 * Move slowly and deliberately: Test each step; avoid sudden shifts that may trigger collapses.
 * Protect head and limbs: Use helmet, thick clothing, or even improvised padding.
@@ -12,6 +16,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Do not use matches or lighters, this may cause explosion (gas leak)
 * Recuers sometimes arrange a minute of silence, use this to shout as loud as possible
 * If near pipes, tick against it so you can be found.
+* If you can get out, examine yourself for wounds.
 
 ---
 
