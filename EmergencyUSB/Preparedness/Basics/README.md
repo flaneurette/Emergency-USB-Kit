@@ -8,6 +8,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Never photograph or film the enemy, unless they absolutely cannot see you.
 * Never photograph or film any enemy equipment, dangerous materials, drones, planes, routes, bases.
 * Never sport/show a weapon to the enemy. Any weapon, no matter how small. (like knives, batons.)
+* Avoid derelict / vacant / empty buildings at all costs. They may be structurally unsafe or contain mines, traps, boobytraps, hosts weapons, dangerous caches, or harbour enemy troops. (often a sniper nest), and may be bombing targets.
 * Avoid conflict zones: If possible, detour around known combat areas.
 * Keep a low profile: Limit noise, movement, and visible signs of life in contested areas.
 * Travel in safe groups: Avoid solo movement in high-risk zones.
@@ -23,7 +24,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Never transmit near suspected drones, planes, IEDs or booby-trapped areas. Some devices pick up (cell, radio, radar) frequencies and may detonate.
 * If captured, try to cooperate, do not provoke enemy. Do not give any secret information: you just don't know anything.
 * Have a neutral smartphone: do not store national symbols, flags, nationalist GUI themes, emblems, logos, group affiliations, resistance documents/logos, war paraphenelia.
-  (you might be seen as army personel, secret service. etc.) 
+  (you might be seen as army personel, secret service. etc.)
   
 ### 1. Rubble Survival - Safely Navigate Collapsed Buildings
 
