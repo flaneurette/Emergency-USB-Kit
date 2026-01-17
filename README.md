@@ -1,3 +1,4 @@
+
 # Emergency USB Kit Guide
 
 > Creating a emergency USB stick is useful. This document tells you how.
@@ -138,6 +139,7 @@ EmergencyUSB/
 │   ├── rufus-4.11.exe
 │   ├── rufus-4.11p.exe (portable)
 │   ├── Avira, Eset or ClamAV. (portable if possible)
+│   ├── Malwarebytes.exe
 │   ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
 │   ├── Sandboxie-Plus-x64-v1.16.9.exe
 │   ├── SumatraPDF-3.5.2-64-install.exe
