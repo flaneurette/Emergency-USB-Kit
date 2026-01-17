@@ -1,6 +1,6 @@
 # EmergencyUSB – Disaster-Proof README
 
-* This USB is designed for extreme emergencies:
+This USB is designed for extreme emergencies:
 * Armed conflict or war
 * Long-term power, network, or internet outages
 * Severe infrastructure degradation or collapse
@@ -9,6 +9,7 @@
 * Large-scale malware incidents (e.g. ransomware, botnets, automated attacks)
 * Civil instability (e.g. unrest, looting, forced displacement)
 * High-scrutiny environments, including monitoring by state or institutional actors
+* Long term survival
 
 It assumes:
 
