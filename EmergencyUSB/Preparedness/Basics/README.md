@@ -22,6 +22,12 @@ Always follow your governmental advisory first, use this only if there is no adv
 
 ### 2. Nuclear / Chemical Attacks – Protection & Dos / Don’ts
 
+If you look outside and notice a bright flash, immediatley look away. Do not look at it, as it might burn your eyes permanently and cause blindness
+
+If in a car: close doors and windows instantly.
+
+If outside: find a recess and lie down flat, hands under your body.
+
 * Shelter immediately: Go to the innermost part of a building, ideally underground or without windows.
 * Seal gaps: Close doors, windows, vents, and cover cracks with tape or wet cloths.
 * Limit exposure: Stay indoors, avoid smoke, dust, or fallout.
