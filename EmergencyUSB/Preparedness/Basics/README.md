@@ -35,7 +35,8 @@ Do not ignore an "air alert" siren or government text message. Follow instructio
 * Decontaminate: Remove clothing, wash exposed skin thoroughly if contaminated.
 * Stay informed: Use a battery-powered radio or offline-prepared alerts.
 * Take shower if possible
-* You can use **tapwater** to clean yourself, but **do not drink** it unless the government says so.
+* You can use **tapwater** to clean yourself, but **do not drink** it unless the government says so. (only drink tapwater if there is a great risk of dehydration)
+* Use bottled water first.
 
 Chemicals:
 
