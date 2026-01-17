@@ -89,6 +89,7 @@ verify.bat (checksumming)
 |
 EmergencyUSB/
 ├── LiveOS/
+│   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
 |   ├── linux-mint.iso             (~3 GB) - recommended
 |   ├── Qubes.iso                  (~7GB)
