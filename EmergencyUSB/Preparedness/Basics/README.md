@@ -34,6 +34,8 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Decontaminate: Remove clothing, wash exposed skin thoroughly if contaminated.
 * Stay informed: Use a battery-powered radio or offline-prepared alerts.
 
+If possible, create distance, but only if it's safe to do so. Especially when chemicals are involved. Chemical/gas attacks may seep into all buildings within seconds to minutes, even sealed ones, so creating distance fast is a lifesaving opportunity.
+
 ---
 
 ### 3. Capture / Kidnapping – Survival Strategies
