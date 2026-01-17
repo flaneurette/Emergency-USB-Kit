@@ -2,7 +2,7 @@
 
 > If UEFI is not supported, some Linux versions, disable it in BIOS: Secure Boot settings, disable.
 
-## 1. BOOT MENU (ONE-TIME BOOT DEVICE SELECTION)
+### 1. BOOT MENU (ONE-TIME BOOT DEVICE SELECTION)
 
 Use this to choose USB / Live OS without changing BIOS settings.
 
@@ -25,7 +25,7 @@ Press repeatedly immediately after power on.
 
 ---
 
-## 2. BIOS / UEFI SETUP
+### 2. BIOS / UEFI SETUP
 
 Use this to:
 
@@ -47,63 +47,63 @@ DEL -> F2 -> ESC -> F10
 
 ---
 
-## 3. BRAND-SPECIFIC KEYS (MOST COMMON)
+### 3. BRAND-SPECIFIC KEYS (MOST COMMON)
 
 
-### Biostar (American Megatrends)
+#### Biostar (American Megatrends)
 
 * BIOS: Delete key.
   
-### Dell
+#### Dell
 
 * Boot Menu: F12
 * BIOS: F2
 
-### HP
+#### HP
 
 * Boot Menu: ESC, then F9
 * BIOS: ESC, then F10
 
-### Lenovo
+#### Lenovo
 
 * Boot Menu: F12
 * BIOS: F1 or F2
 * Some models: small pinhole “Novo” button
 
-### ASUS
+#### ASUS
 
 * Boot Menu: F8 or ESC
 * BIOS: DEL or F2
 
-### Acer
+#### Acer
 
 * Boot Menu: F12
 * BIOS: DEL or F2
   *(Sometimes F12 must be enabled in BIOS first)*
 
-### MSI
+#### MSI
 
 * Boot Menu: F11
 * BIOS: DEL
 
-### Gigabyte
+#### Gigabyte
 
 * Boot Menu: F12
 * BIOS: DEL
 
-### Toshiba
+#### Toshiba
 
 * Boot Menu: F12
 * BIOS: F2
 
-### Sony VAIO
+#### Sony VAIO
 
 * Boot Menu: ASSIST
 * BIOS: F2
 
 ---
 
-## 4. WINDOWS SPECIAL KEYS (IF WINDOWS STILL BOOTS)
+### 4. WINDOWS SPECIAL KEYS (IF WINDOWS STILL BOOTS)
 
 * Shift + Restart
   -> Troubleshoot
@@ -114,7 +114,7 @@ Useful if keyboard timing is impossible.
 
 ---
 
-## 5. WHEN NOTHING WORKS (IMPORTANT)
+### 5. WHEN NOTHING WORKS (IMPORTANT)
 
 If:
 
@@ -124,7 +124,7 @@ If:
 
 Try:
 
-0. Remove any USB applicances, printers, hubs. (only the stick)
+0. Remove any USB appliances, printers, hubs. (only the stick)
 1. Power off completely
 2. Unplug power
 3. Remove battery (if possible)
@@ -135,7 +135,7 @@ Use USB keyboard, not Bluetooth.
 
 ---
 
-## 6. SECURE BOOT TROUBLESHOOTING
+### 6. SECURE BOOT TROUBLESHOOTING
 
 If USB does not appear:
 
@@ -146,7 +146,7 @@ If USB does not appear:
 
 ---
 
-## 7. ABSOLUTE FALLBACK
+### 7. ABSOLUTE FALLBACK
 
 If no key works:
 
