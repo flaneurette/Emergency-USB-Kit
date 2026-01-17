@@ -6,9 +6,10 @@ This USB is designed for extreme emergencies:
 * long-term power or internet outages
 * infrastructure collapse
 * disaster recovery when no help is available
-* extreme computer failue
+* extreme computer failure
+* AI/ML botnet attacks, ransomware
 * mobbing, looting, civil unrest, civil war.
-* under scrutiny by governments.
+* under scrutiny by governments or secret agencies.
 
 It assumes:
 
