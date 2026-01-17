@@ -99,7 +99,6 @@ EmergencyUSB/
 |   ├── slax.iso                   (~500 MB)
 |   ├── tinycorelinux.iso          (~200 MB) - no UEFI!
 │   ├── DSL.iso                    (~50 MB) - no UEFI!
-│   ├── Ophcrack.iso               (~500 MB) - Windows password cracker (rainbow tables)
 │   └── hirens-bootcd-pe.iso       (~2 GB) - recommended
 │
 ├── AI/                            (~8 GB total)
