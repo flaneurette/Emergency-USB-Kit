@@ -22,12 +22,10 @@ Always follow your governmental advisory first, use this only if there is no adv
 
 ### 2. Nuclear / Chemical Attacks – Protection & Dos / Don’ts
 
-- If you look outside and notice a bright flash, immediatley look away. Do not look at it, as it might burn your eyes permanently and cause blindness
+**If you look outside and notice a bright flash, immediately look away. Do not look at it again, as it might burn your eyes permanently and cause blindness**
 
 - If in a car: close doors and windows instantly.
-
 - If outside: find a recess and lie down flat, hands under your body.
-
 - Cover your mouth and nose with a (gas) mask, or cloth. Breath through it.
 
 * Shelter immediately: Go to the innermost part of a building, ideally underground or without windows.
