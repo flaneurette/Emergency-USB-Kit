@@ -11,7 +11,8 @@ This USB is designed for extreme emergencies:
 * High-scrutiny environments, including monitoring by state or institutional actors
 * Long term survival
 * Home/office IT/computer/disk failure. Most modern PCs use SSD drives, which have limited lifespans
-  (crucial to keep an emergency USB stick!)
+
+Crucial to keep an emergency USB stick.
 
 It assumes:
 
