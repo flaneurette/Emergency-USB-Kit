@@ -14,7 +14,7 @@ Always follow your governmental advisory first, use this only if there is no adv
 * Signal safely: If trapped, make noise or use a whistle or wave bright cloth; avoid shouting excessively (fatigue).
 * Mark paths: Leave breadcrumbs or marks to find your way back.
 * Do not use matches or lighters, this may cause explosion (gas leak)
-* Recuers sometimes arrange a minute of silence, use this to shout as loud as possible
+* Rescuers sometimes arrange a minute of silence, use this to shout as loud as possible if you hear no noise for 20-30 seconds.
 * If near pipes, tick against it so you can be found.
 * If you can get out, examine yourself for wounds.
 
