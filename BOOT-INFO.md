@@ -156,6 +156,3 @@ If no key works:
 Extreme, but effective.
 
 ---
-
-
-Just say the word.
