@@ -92,6 +92,7 @@ verify.bat (checksumming)
 EmergencyUSB/
 ├── LiveOS/
 │   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
+│   ├── virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb (400MB used to virtualize Windows ISO)
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
 |   ├── linux-mint.iso             (~3 GB) - recommended
 |   ├── Qubes.iso                  (~7GB)
@@ -228,6 +229,16 @@ Download media creation tool and generate an ISO:
 https://www.microsoft.com/en-us/software-download/windows10
 
 https://go.microsoft.com/fwlink/?LinkId=2265055
+
+Then download **Virtual box** to run the virtualized ISO from Linux:
+
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+From Ubuntu 22.04:
+
+https://download.virtualbox.org/virtualbox/7.2.4/virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb
+
+Command for Linux to run it: `sudo apt install ./virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb`
 
 ## 1. Bootable Live Linux Distributions
 
