@@ -234,11 +234,15 @@ Then download **Virtual box** to run the virtualized ISO from Linux:
 
 https://www.virtualbox.org/wiki/Linux_Downloads
 
-From Ubuntu 22.04:
+From Ubuntu 22.04 Live:
 
 https://download.virtualbox.org/virtualbox/7.2.4/virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb
 
-Command for Linux to run it: `sudo apt install ./virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb`
+1. Command for Linux to run it: `sudo apt install ./virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb`
+   
+2. Verify: `virtualbox --help`
+   
+3. Run it: `virtualbox`
 
 ## 1. Bootable Live Linux Distributions
 
