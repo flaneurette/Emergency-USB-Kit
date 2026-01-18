@@ -4,10 +4,10 @@
 
 ## Step 1: Download Windows ISO
 
-* Use Microsoft’s Media Creation Tool or direct links:
+* Use Microsoft’s Media Creation Tool direct links:
 
   * [Windows 10 Download Page](https://www.microsoft.com/en-us/software-download/windows10)
-  * [Direct ISO link](https://go.microsoft.com/fwlink/?LinkId=2265055)
+  * [Direct Media creation Tool](https://go.microsoft.com/fwlink/?LinkId=2265055)
 
 Use that official software to make a ISO from **your current Windows** OS.
 
