@@ -1,0 +1,6 @@
+# Placeholder for emergency reader ISO based on Alpine Linux.
+# This ISO will boot a C program that can read all documents on the stick.
+# It is designed for users unfamiliar with Linux or terminals.
+# The reader provides access to all README files, texts, and critical documents.
+# Serves as a last-resort failsafe if nothing else boots.
+# Updates and improvements coming soon.
