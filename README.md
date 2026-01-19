@@ -82,6 +82,21 @@ Store in cool, dry place (avoid heat, sunlight, magnets) preferably in anti-stat
 
 You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, and otherwise: TLC/QLC (but then buy 4-5 sticks and make duplicates of the master USB and stow them away)
 
+
+## USB stick can run on:
+
+- Windows (most hardware/ OS versions)
+- 64bit recommended.
+  - 32bit (no UEFI): run DSL.iso, or Tinycorelinux.iso, Alpine.
+  - embedded: DSL.iso
+  - ARM: no support! if you anticipate ARM, download proper Linux versions for it.
+  
+- Linux (most hardware/ OSversions)
+- 64bit recommended.
+  - 32bit (no UEFI): run DSL.iso, or Tinycorelinux.iso, Alpine.
+  - embedded: DSL.iso
+  - ARM: no support! if you anticipate ARM, download proper Linux versions for it.
+  
 ## Recommended USB Structure
 
 ```
