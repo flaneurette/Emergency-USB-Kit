@@ -6,4 +6,5 @@
 # Updates and improvements coming soon.
 
 # The C program will require the E-USB.conf file in the root of the USB stick. 
-# It must be on the USB stick for the reader to work correctly.
+# It must be on the USB stick for the reader to work correctly,
+# because it is used to detect the USB drive station, and to mount it properly.
