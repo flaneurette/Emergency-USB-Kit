@@ -1,4 +1,6 @@
-# All mentioned links to download or view.
+# (Some) mentioned links to download or view.
+
+This document is under review.
 
 - https://ventoy.net
 - https://ubuntu.com/download/desktop
