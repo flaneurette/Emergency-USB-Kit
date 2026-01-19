@@ -86,13 +86,13 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ## USB stick can run on:
 
 - Windows (most hardware/ OS versions)
-- 64bit recommended.
+- 64bit recommended. (Runs all software mentioned, except for DSL/Tinycore)
   - 32bit (no UEFI): run DSL.iso, or Tinycorelinux.iso, Alpine.
   - embedded: DSL.iso
   - ARM: no support! if you anticipate ARM, download proper Linux versions for it.
   
-- Linux (most hardware/ OSversions)
-- 64bit recommended.
+- Linux (most hardware/ OS versions)
+- 64bit recommended. (Runs all software mentioned, except for DSL/Tinycore)
   - 32bit (no UEFI): run DSL.iso, or Tinycorelinux.iso, Alpine.
   - embedded: DSL.iso
   - ARM: no support! if you anticipate ARM, download proper Linux versions for it.
