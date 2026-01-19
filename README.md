@@ -101,11 +101,13 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 
 ```
 ROOT OF STICK
-├── hash.bat                       (checksumming)
-├── verify.bat                     (verify checksumming)
-├── E-USB.conf                     (emergency reader configuration, do not delete)
-└── README.md                      (keep this guide)
+├─ hash.bat                        (checksumming)
+├─ verify.bat                      (verify checksumming)
+├─ E-USB.conf                      (emergency C reader configuration, do not delete)
+└─ README.md                       (keep this guide)
 | README/                          (important readme files in markdown)
+| LINKS/
+| EXTRA/
 | EmergencyUSB/
 ├── LiveOS/
 │   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
