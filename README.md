@@ -103,7 +103,7 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ROOT OF STICK
 ├── hash.bat                       (checksumming)
 ├── verify.bat                     (verify checksumming)
-├── E-USB.conf                     (emergence reader configuration, do not delete)
+├── E-USB.conf                     (emergency reader configuration, do not delete)
 └── README.md                      (keep this guide)
 | README/                          (important readme files in markdown)
 | EmergencyUSB/
