@@ -124,8 +124,7 @@ ROOT OF USB
 |          ├── tinycorelinux.iso          (~200 MB) - no UEFI!
 │          ├── DSL.iso                    (~50 MB) - no UEFI!
 │          └── hirens-bootcd-pe.iso       (~2 GB) - recommended
-|
-├──────AI/                             (~8 GB total)
+├────── AI/                             (~8 GB total)
 │          ├── Models/
 ├────── AppImages/                     (~1 GB total)
 │          ├── firefox.AppImage
@@ -133,7 +132,6 @@ ROOT OF USB
 │          ├── gparted.AppImage
 │          ├── keepassxc.AppImage
 │          └── etcher.AppImage
-│
 ├────── WindowsPortable/                (~2-14 GB) - it is better to make a big ZIP file of it,
 │          |                             as it contains tens of thousands of small files!
 │          ├── PortableApps/
@@ -185,20 +183,17 @@ ROOT OF USB
 │          ├── wireshark-portable-win64-4.4.9-20-setup.exe
 │          ├── windowsScripts-master.zip
 │          └── etc.
-|
 ├────── Tools/
 │          ├── ddrescue/
 │          ├── clonezilla/
 │          ├── smartctl/
 │          └── wifi-drivers/
-│
 ├────── Scripts/
 │          ├── Batch Collection: https://github.com/fkie-cad/windowsScripts
 │          ├── backup.sh
 │          ├── mount-all.sh
 │          ├── network-reset.sh
 │          └── disk-check.sh
-│
 ├────── Docs/                          (~5-10 GB)
 │          ├── Kiwix/
 │          │   └── wikipedia_en.zim
@@ -212,15 +207,12 @@ ROOT OF USB
 │          ├── ready_gov_family_plan.pdf
 │          ├── ready_gov_hazard_sheets.pdf
 │          └── international_handbook_emergency_management.pdf
-│
 ├────── VPN/
 │          ├── openvpn.ovpn
 │          └── wireguard.conf
-│
 ├────── Passwords/
 │          └── vault.kdbx     (encrypted)
-│
-├──────Backups/               (remaining space)
+├────── Backups/              (remaining space)
 │          └── important-files/
 ```
 
