@@ -95,10 +95,10 @@ EmergencyUSB/
 │   ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
 |   ├── linux-mint.iso             (~3 GB) - recommended
-|   ├── Qubes.iso                  (~7GB)
+|   ├── Qubes.iso                  (~7GB) - deserves it's own stick.
 |   ├── FreeBSD.img                (~1.5 GB)
 │   ├── systemrescue.iso           (~1 GB) - recommended
-│   ├── tails.img                  (~1.5 GB) - might not work everywhere.
+│   ├── tails.img                  (~1.5 GB) - might not work on new hardware!
 │   ├── puppy-linux.iso            (~500 MB) - recommended
 |   ├── slax.iso                   (~500 MB)
 |   ├── tinycorelinux.iso          (~200 MB) - no UEFI!
