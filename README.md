@@ -100,130 +100,128 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ## Recommended USB Structure
 
 ```
-ROOT OF STICK
-├─ hash.bat                        (checksumming)
-├─ verify.bat                      (verify checksumming)
-├─ E-USB.conf                      (emergency C reader configuration, do not delete)
-└─ README.md                       (keep this guide)
-| README/                          (important readme files in markdown)
-| LINKS/
-| EXTRA/
-| EmergencyUSB/
-├── LiveOS/
-│   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
-│   ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
-│   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
-|   ├── linux-mint.iso             (~3 GB) - recommended
-|   ├── Qubes.iso                  (~7GB) - deserves a dedicated single stick.
-|   ├── FreeBSD.img                (~1.5 GB)
-│   ├── systemrescue.iso           (~1 GB) - recommended
-│   ├── tails.img                  (~1.5 GB) - might not work on new hardware!
-│   ├── puppy-linux.iso            (~500 MB) - recommended
-|   ├── slax.iso                   (~500 MB)
-|   ├── alpine.iso                 (~400 MB) - recommended
-|   ├── tinycorelinux.iso          (~200 MB) - no UEFI!
-│   ├── DSL.iso                    (~50 MB) - no UEFI!
-│   └── hirens-bootcd-pe.iso       (~2 GB) - recommended
-│
-├── AI/                            (~8 GB total)
-│   ├── Models/
+ROOT OF USB
+├── E-USB.conf                <- Core configuration, do NOT delete
+├── README.md                 <- Optional, formatted guide
+├── hash.bat & verify.bat     <- Checksum verification
+├── LICENSE                   <- Optional license info
+├── README/                   (important readme files in markdown)
+├── LINKS/
+├── EXTRA/
+├── EMERGENCYUSB/
+├──────LiveOS/
+│          ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
+│          ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
+│          ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
+|          ├── linux-mint.iso             (~3 GB) - recommended
+|          ├── Qubes.iso                  (~7GB) - deserves a dedicated single stick.
+|          ├── FreeBSD.img                (~1.5 GB)
+│          ├── systemrescue.iso           (~1 GB) - recommended
+│          ├── tails.img                  (~1.5 GB) - might not work on new hardware!
+│          ├── puppy-linux.iso            (~500 MB) - recommended
+|          ├── slax.iso                   (~500 MB)
+|          ├── alpine.iso                 (~400 MB) - recommended
+|          ├── tinycorelinux.iso          (~200 MB) - no UEFI!
+│          ├── DSL.iso                    (~50 MB) - no UEFI!
+│          └── hirens-bootcd-pe.iso       (~2 GB) - recommended
 |
-├── AppImages/                     (~1 GB total)
-│   ├── firefox.AppImage
-│   ├── libreoffice.AppImage
-│   ├── gparted.AppImage
-│   ├── keepassxc.AppImage
-│   └── etcher.AppImage
+├──────AI/                             (~8 GB total)
+│          ├── Models/
+├────── AppImages/                     (~1 GB total)
+│          ├── firefox.AppImage
+│          ├── libreoffice.AppImage
+│          ├── gparted.AppImage
+│          ├── keepassxc.AppImage
+│          └── etcher.AppImage
 │
-├── WindowsPortable/                (~2-14 GB) - it is better to make a big ZIP file of it,
-│   |                                         as it contains tens of thousands of small files!
-│   ├── PortableApps/
-│   ├── EmergencyKit/              (Emsisoft)
-│   ├── PuTTYPortable/
-│   └── WinSCPPortable/
+├────── WindowsPortable/                (~2-14 GB) - it is better to make a big ZIP file of it,
+│          |                             as it contains tens of thousands of small files!
+│          ├── PortableApps/
+│          ├── EmergencyKit/           (Emsisoft)
+│          ├── PuTTYPortable/
+│          └── WinSCPPortable/
+├────── Software/
+│          ├── 7z.msi (required to unzip windows stuff)
+│          ├── peazip-10.8.0.WIN64.exe (backup in case 7z is corrupted)
+│          ├── 7z.exe (alternative)
+│          ├── 7z2501-linux-x64.tar.xz (linux)
+│          ├── 7z2501-x64.exe (alternative)
+│          ├── Antivirus: Avira, Eset or ClamAV. (portable if possible)
+│          ├── comet_installer_latest.exe (browser)
+│          ├── Core-Temp-setup-v1.19.5.69.exe
+│          ├── Eraser 6.2.0.2996.exe
+│          ├── FedoraMediaWriter-win64-5.2.9.exe
+│          ├── FirefoxPortable_146.0.1_English.paf.exe
+│          ├── gpg4win-4.4.1.exe
+│          ├── KeePass-2.60-Setup.exe
+│          ├── KeePass-2.60.zip
+│          ├── KeePassXC-2.7.11-Win64.msi
+│          ├── LiberKey_5.8.1129.exe
+│          ├── Ninite Package: 7Zip AVG AnyDesk Avast Avira Brave CCleaner Installer.exe
+│          ├── npp.8.9.Installer.x64.exe (notepadd++)
+│          ├── MBsetup.exe (Malwarebytes)
+│          ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
+│          ├── Quickhash-GUI-Windows-v3.3.4.zip
+│          ├── rcsetup.exe (Recuva free)
+│          ├── rufus-4.11.exe
+│          ├── rufus-4.11p.exe (portable)
+│          ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
+│          ├── Sandboxie-Plus-x64-v1.16.9.exe
+│          ├── SetupImgBurn_2.5.8.0.exe (making new ISO's, burning)
+│          ├── SumatraPDF-3.5.2-64-install.exe
+│          ├── SDI_1.26.0.7z (Snappy drivers Lite, offline drivers)
+│          ├── syncthing-windows-setup.exe
+│          ├── tailscale-setup-1.92.5.exe
+│          ├── testdisk-7.3-WIP.win.zip (PhotoRec, disk testing tools)
+│          ├── Temple.zip (USB disk checker)
+│          ├── teracopy.exe (fast copy)
+│          ├── tor-browser-windows-x86_64-portable-15.0.4.exe
+│          ├── tor-browser-windows-x86_64-portable-15.0.4.exe.asc (checksum)
+│          ├── TreeSizeFreeSetup.exe
+│          ├── VeraCrypt Portable 1.26.24.exe
+│          ├── vlc-3.0.23-win32.zip
+│          ├── WinSCP-6.5.5-Setup.exe
+│          ├── YUMI-exFAT-1.0.3.3.exe
+│          ├── wireshark-portable-win64-4.4.9-20-setup.exe
+│          ├── windowsScripts-master.zip
+│          └── etc.
 |
-├── Software/
-│   ├── 7z.msi (required to unzip windows stuff)
-│   ├── peazip-10.8.0.WIN64.exe (backup in case 7z is corrupted)
-│   ├── 7z.exe (alternative)
-│   ├── 7z2501-linux-x64.tar.xz (linux)
-│   ├── 7z2501-x64.exe (alternative)
-│   ├── Antivirus: Avira, Eset or ClamAV. (portable if possible)
-│   ├── comet_installer_latest.exe (browser)
-│   ├── Core-Temp-setup-v1.19.5.69.exe
-│   ├── Eraser 6.2.0.2996.exe
-│   ├── FedoraMediaWriter-win64-5.2.9.exe
-│   ├── FirefoxPortable_146.0.1_English.paf.exe
-│   ├── gpg4win-4.4.1.exe
-│   ├── KeePass-2.60-Setup.exe
-│   ├── KeePass-2.60.zip
-│   ├── KeePassXC-2.7.11-Win64.msi
-│   ├── LiberKey_5.8.1129.exe
-│   ├── Ninite Package: 7Zip AVG AnyDesk Avast Avira Brave CCleaner Installer.exe
-│   ├── npp.8.9.Installer.x64.exe (notepadd++)
-│   ├── MBsetup.exe (Malwarebytes)
-│   ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
-│   ├── Quickhash-GUI-Windows-v3.3.4.zip
-│   ├── rcsetup.exe (Recuva free)
-│   ├── rufus-4.11.exe
-│   ├── rufus-4.11p.exe (portable)
-│   ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
-│   ├── Sandboxie-Plus-x64-v1.16.9.exe
-│   ├── SetupImgBurn_2.5.8.0.exe (making new ISO's, burning)
-│   ├── SumatraPDF-3.5.2-64-install.exe
-│   ├── SDI_1.26.0.7z (Snappy drivers Lite, offline drivers)
-│   ├── syncthing-windows-setup.exe
-│   ├── tailscale-setup-1.92.5.exe
-│   ├── testdisk-7.3-WIP.win.zip (PhotoRec, disk testing tools)
-│   ├── Temple.zip (USB disk checker)
-│   ├── teracopy.exe (fast copy)
-│   ├── tor-browser-windows-x86_64-portable-15.0.4.exe
-│   ├── tor-browser-windows-x86_64-portable-15.0.4.exe.asc (checksum)
-│   ├── TreeSizeFreeSetup.exe
-│   ├── VeraCrypt Portable 1.26.24.exe
-│   ├── vlc-3.0.23-win32.zip
-│   ├── WinSCP-6.5.5-Setup.exe
-│   ├── YUMI-exFAT-1.0.3.3.exe
-│   ├── wireshark-portable-win64-4.4.9-20-setup.exe
-│   ├── windowsScripts-master.zip
-│   └── etc.
-|
-├── Tools/
-│   ├── ddrescue/
-│   ├── clonezilla/
-│   ├── smartctl/
-│   └── wifi-drivers/
+├────── Tools/
+│          ├── ddrescue/
+│          ├── clonezilla/
+│          ├── smartctl/
+│          └── wifi-drivers/
 │
-├── Scripts/
-│   ├── Batch Collection: https://github.com/fkie-cad/windowsScripts
-│   ├── backup.sh
-│   ├── mount-all.sh
-│   ├── network-reset.sh
-│   └── disk-check.sh
+├────── Scripts/
+│          ├── Batch Collection: https://github.com/fkie-cad/windowsScripts
+│          ├── backup.sh
+│          ├── mount-all.sh
+│          ├── network-reset.sh
+│          └── disk-check.sh
 │
-├── Docs/                          (~5-10 GB)
-│   ├── Kiwix/
-│   │   └── wikipedia_en.zim
-│   ├── linux-commands.pdf
-│   ├── recovery-notes.txt
-│   ├── network-troubleshooting.pdf
-│   └── first-aid.pdf
-├── Preparedness/   <- download these from governmental websites (your local readiness docs)
-│   ├── community_disaster_preparedness_guide.pdf
-│   ├── ready_gov_emergency_supply_list.pdf
-│   ├── ready_gov_family_plan.pdf
-│   ├── ready_gov_hazard_sheets.pdf
-│   └── international_handbook_emergency_management.pdf
+├────── Docs/                          (~5-10 GB)
+│          ├── Kiwix/
+│          │   └── wikipedia_en.zim
+│          ├── linux-commands.pdf
+│          ├── recovery-notes.txt
+│          ├── network-troubleshooting.pdf
+│          └── first-aid.pdf
+├────── Preparedness/   <- download these from governmental websites (your local readiness docs)
+│          ├── community_disaster_preparedness_guide.pdf
+│          ├── ready_gov_emergency_supply_list.pdf
+│          ├── ready_gov_family_plan.pdf
+│          ├── ready_gov_hazard_sheets.pdf
+│          └── international_handbook_emergency_management.pdf
 │
-├── VPN/
-│   ├── openvpn.ovpn
-│   └── wireguard.conf
+├────── VPN/
+│          ├── openvpn.ovpn
+│          └── wireguard.conf
 │
-├── Passwords/
-│   └── vault.kdbx                 (encrypted)
+├────── Passwords/
+│          └── vault.kdbx     (encrypted)
 │
-├── Backups/                       (remaining space)
-│   └── important-files/
+├──────Backups/               (remaining space)
+│          └── important-files/
 ```
 
 Total approximate size: 12-24 GB minimum, depending on files. 
