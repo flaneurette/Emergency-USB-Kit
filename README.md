@@ -92,7 +92,7 @@ verify.bat (checksumming)
 EmergencyUSB/
 ├── LiveOS/
 │   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
-│   ├── virtualbox-7.2_7.2.4-170995~Ubuntu~jammy_amd64.deb (400MB used to virtualize Windows ISO)
+│   ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
 |   ├── linux-mint.iso             (~3 GB) - recommended
 |   ├── Qubes.iso                  (~7GB)
