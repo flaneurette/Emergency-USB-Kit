@@ -4,3 +4,6 @@
 # The reader provides access to all README files, texts, and critical documents.
 # Serves as a last-resort failsafe if nothing else boots.
 # Updates and improvements coming soon.
+
+# The C program will require the E-USB.conf file in the root of the USB stick. 
+# It must be on the USB stick for the reader to work correctly.
