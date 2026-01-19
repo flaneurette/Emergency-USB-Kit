@@ -100,11 +100,13 @@ You don't want a emergency USB stick to fail, hence I recommend SLC then MLC, an
 ## Recommended USB Structure
 
 ```
-root
-hash.bat (checksumming)
-verify.bat (checksumming)
-|
-EmergencyUSB/
+ROOT OF STICK
+├── hash.bat                       (checksumming)
+├── verify.bat                     (verify checksumming)
+├── E-USB.conf                     (emergence reader configuration, do not delete)
+└── README.md                      (keep this guide)
+| README/                          (important readme files in markdown)
+| EmergencyUSB/
 ├── LiveOS/
 │   ├── MediaCreationTool_22H2.exe (create Windows ISO with it)
 │   ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
@@ -220,8 +222,6 @@ EmergencyUSB/
 │
 ├── Backups/                       (remaining space)
 │   └── important-files/
-│
-└── README.md                      (this guide)
 ```
 
 Total approximate size: 12-24 GB minimum, depending on files. 
