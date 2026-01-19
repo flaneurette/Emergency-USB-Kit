@@ -145,18 +145,19 @@ EmergencyUSB/
 │   ├── MBsetup.exe (Malwarebytes)
 │   ├── PortableApps.com_Platform_Setup_30.1.3.paf.exe
 │   ├── Quickhash-GUI-Windows-v3.3.4.zip
-│   ├── rcsetup.exe (recuva free)
+│   ├── rcsetup.exe (Recuva free)
 │   ├── rufus-4.11.exe
 │   ├── rufus-4.11p.exe (portable)
 │   ├── Sandboxie-Classic-x64-v5.71.9.exe (to check files before installing)
 │   ├── Sandboxie-Plus-x64-v1.16.9.exe
+│   ├── SetupImgBurn_2.5.8.0.exe (making new ISO's, burning)
 │   ├── SumatraPDF-3.5.2-64-install.exe
 │   ├── SDI_1.26.0.7z (Snappy drivers Lite, offline drivers)
 │   ├── syncthing-windows-setup.exe
 │   ├── tailscale-setup-1.92.5.exe
 │   ├── testdisk-7.3-WIP.win.zip (PhotoRec, disk testing tools)
 │   ├── Temple.zip (USB disk checker)
-│   ├── teracopy.exe
+│   ├── teracopy.exe (fast copy)
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe
 │   ├── tor-browser-windows-x86_64-portable-15.0.4.exe.asc (checksum)
 │   ├── TreeSizeFreeSetup.exe
