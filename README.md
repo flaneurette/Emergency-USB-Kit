@@ -230,6 +230,8 @@ Total approximate size: 12-24 GB minimum, depending on files.
 
 > It is a good idea to leave a few GBs untouched for writing, and the USB is also faster with less files.
 
+> Also: on x86 / Win32 hardware, sticks above 32GB might not be detected, don't read, or fail.
+
 ## Emergency Quick Start
 
 If you're in an emergency RIGHT NOW:
