@@ -95,7 +95,7 @@ EmergencyUSB/
 │   ├── virtualbox-7.2_7.2.4.deb   (~100MB used to virtualize Windows ISO)
 │   ├── ubuntu-24.04.iso           (~4-7 GB) - recommended
 |   ├── linux-mint.iso             (~3 GB) - recommended
-|   ├── Qubes.iso                  (~7GB) - deserves it's own stick.
+|   ├── Qubes.iso                  (~7GB) - deserves a dedicated single stick.
 |   ├── FreeBSD.img                (~1.5 GB)
 │   ├── systemrescue.iso           (~1 GB) - recommended
 │   ├── tails.img                  (~1.5 GB) - might not work on new hardware!
