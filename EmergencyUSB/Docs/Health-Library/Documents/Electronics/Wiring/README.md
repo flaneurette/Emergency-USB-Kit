@@ -4,6 +4,13 @@ Humans make mistakes. If wires are not connected properly, devices may malfuncti
 
 You could buy a simple device/gadget that checks this, but cheap ones may not be very good. Especially if sockets miss ground. 
 
+You could use these tools:
+
+- Neon polarity checker
+- Mains outlet polarity checker with simple LEDS
+
+But they might not always be conclusive, or fail (risky) or won't work because **ground** is missing. etc. It is best to use them as double confirmation.
+
 The best way is to inspect **visually.**
 
 ---
@@ -47,19 +54,28 @@ Why this is effective
 ---
 
 
+### Important
+
+The following **assumes** that if the main-board wiring is correct, the wires should follow the same principle through the entire room or house. Sadly, this is not always the case. Sometimes, wires seem to go to sockets, but split off in other sections before they reach the socket where the wires are **already reversed**. It **can happen** that the **wire color** is already **reversed** in another box, like in switches, lamp outlets. If that is the case, all our work could be useless. It is therefore advised to also remove all switches and lamp sockets and inspect an entire room. 
+
+Remove all sockets, switches, lamp outlets in **one room**. (per room is easier) to inspect all wires and connections.
+
+
 ## EU sockets
+
+> TIP: some EU sockets can be reversed/inversed (flipped around) Check if it's possible. This makes it easier to switch the socket 180 degrees, so that the wire-color is similar as to the table below. This prevents tearing wires if they are inserted very strongly, or screwed too tightly. Making it a very EASY FIX: Just flip the socket around so that the colors align as indicated below.
 
 * Switch off the mains at the house breaker.
 * Double-check with a multimeter that the socket is not live - even though the breaker is off, safety first.
 * Wear insulated gloves (optional but adds a safety margin).
 * Unscrew the socket cover.
-* Inspect the wiring:
+* Inspect the wiring POSITION **important**:
   
-| Color                | Purpose             | Typical Connection / Notes |
-| ---------------------| ------------------- | -------------------------- |
-| Brown                | Live / Phase (L)    | Right screw / live pin     |
-| Blue                 | Neutral (N)         | Left screw / neutral pin   |
-| Yellow/Green striped | Ground / Earth (PE) | Middle or top, protective  |
+| Color                | Purpose             | Typical Connection / Notes | POSITION front view |
+| ---------------------| ------------------- | -------------------------- |---------------------
+| Brown                | Live / Phase (L)    | Right screw / live pin     | RIGHT
+| Blue                 | Neutral (N)         | Left screw / neutral pin   | LEFT
+| Yellow/Green striped | Ground / Earth (PE) | Middle or top, protective  | MIDDLE/TOP
 
 * Make a note or quick sketch of where the wires come from and which pipes (useful for later remodeling or troubleshooting) and store this in a notebook or file. If later on you need to pull more wires, you'll know the pipe layout! (which saves time later on)
 * Check connections are tight, no exposed copper outside clamps.
@@ -67,6 +83,8 @@ Why this is effective
 * Turn mains back on.
 
 Estimated: ~2-3 minutes per socket if you’re organized.
+
+After checking and switching, get a **neon polarity checker** (if you have one). Put it in the right pin. It should light up. (double confirmation)
 
 ## US sockets
 
@@ -90,6 +108,8 @@ Estimated: ~2-3 minutes per socket if you’re organized.
 * Turn mains back on.
 
 Estimated: ~2-3 minutes per socket if you’re organized.
+
+After checking and switching, get a **neon polarity checker** (if you have one). Put it in the right pin. It should light up. (double confirmation)
 
 ---
 
