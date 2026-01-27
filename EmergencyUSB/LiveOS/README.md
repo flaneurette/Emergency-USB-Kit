@@ -6,4 +6,4 @@
 
 Note that `E-USB.conf` must exist in the root, without it, it will not boot.
 
-To compile the IMG yourself, look in ../../Install/ and run the build script.
+To compile the IMG yourself, look in `Emergency-USB-Kit/Install/EMERGENCY-READER-IMG/` and run the build script.
