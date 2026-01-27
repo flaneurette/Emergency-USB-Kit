@@ -45,6 +45,7 @@ fi
 echo "============================================"
 echo "Creating init program"
 echo "============================================"
+
 cat > "$WORK_DIR/init.c" << 'INITEOF'
 #define _GNU_SOURCE
 #include <stdio.h>
@@ -52,11 +53,13 @@ cat > "$WORK_DIR/init.c" << 'INITEOF'
 #include <unistd.h>
 #include <sys/mount.h>
 #include <sys/reboot.h>
+#include <sys/sysmacros.h>
 #include <linux/reboot.h>
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
 #include <dirent.h>
+#include <sys/stat.h>
 
 void flush_output() {
     fflush(stdout);
@@ -191,7 +194,7 @@ int main() {
                     show_directory("/mnt");
                     
                     if (access("/mnt/E-USB.conf", F_OK) == 0) {
-                        printf("\nFOUND E-USB.conf on %s! \n", device);
+                        printf("\nFOUND E-USB.conf on %s!\n", device);
                         flush_output();
                         found = 1;
                         break;
@@ -221,15 +224,161 @@ int main() {
     
     printf("\n[4/5] Starting reader application...\n");
     flush_output();
+    
+    // Set up environment for reader
+    setenv("TERM", "linux", 1);
+    setenv("HOME", "/root", 1);
+    setenv("PATH", "/bin:/sbin:/usr/bin:/usr/sbin", 1);
+    
+    // Create terminal devices if they don't exist
+    if (access("/dev/tty", F_OK) != 0) {
+        mknod("/dev/tty", S_IFCHR | 0666, makedev(5, 0));
+    }
+    if (access("/dev/console", F_OK) != 0) {
+        mknod("/dev/console", S_IFCHR | 0600, makedev(5, 1));
+    }
+    
+    printf("\n=== READER DEBUG INFO ===\n");
+    
+    // Check 1: Binary exists
+    printf("1. Binary exists: ");
+    flush_output();
+    if (access("/root/reader", F_OK) == 0) {
+        printf("YES\n");
+    } else {
+        printf("NO - FATAL ERROR\n");
+        printf("\nContents of /root:\n");
+        show_directory("/root");
+        printf("\nPowering off in 30 seconds...\n");
+        flush_output();
+        sleep(30);
+        reboot(LINUX_REBOOT_CMD_POWER_OFF);
+        return 1;
+    }
+    
+    // Check 2: Binary executable
+    printf("2. Binary executable: ");
+    flush_output();
+    if (access("/root/reader", X_OK) == 0) {
+        printf("YES\n");
+    } else {
+        printf("NO - Fixing permissions...\n");
+        chmod("/root/reader", 0755);
+        if (access("/root/reader", X_OK) == 0) {
+            printf("   Fixed successfully\n");
+        } else {
+            printf("   FAILED to fix\n");
+        }
+    }
+    
+    // Check 3: Binary type
+    printf("3. Binary info:\n");
+    flush_output();
+    
+    FILE *fp = popen("file /root/reader 2>&1", "r");
+    if (fp) {
+        char line[256];
+        while (fgets(line, sizeof(line), fp)) {
+            printf("   %s", line);
+        }
+        pclose(fp);
+    }
+    
+    struct stat st;
+    if (stat("/root/reader", &st) == 0) {
+        printf("   Size: %ld bytes\n", st.st_size);
+        printf("   Mode: %o\n", st.st_mode & 0777);
+    }
+    
+    // Check 4: Dynamic linking
+    printf("4. Checking dependencies:\n");
+    flush_output();
+    
+    fp = popen("ldd /root/reader 2>&1", "r");
+    if (fp) {
+        char line[256];
+        int has_libs = 0;
+        while (fgets(line, sizeof(line), fp)) {
+            printf("   %s", line);
+            if (strstr(line, "=>") && !strstr(line, "statically linked")) {
+                has_libs = 1;
+            }
+        }
+        pclose(fp);
+        if (has_libs) {
+            printf("   WARNING: Binary appears to be dynamically linked!\n");
+        }
+    }
+    
+    // Check 5: Mount point accessible
+    printf("5. Mount point accessible: ");
+    flush_output();
+    if (access("/mnt", R_OK) == 0) {
+        printf("YES\n");
+        show_directory("/mnt");
+    } else {
+        printf("NO - FATAL ERROR\n");
+        flush_output();
+        sleep(30);
+        reboot(LINUX_REBOOT_CMD_POWER_OFF);
+        return 1;
+    }
+    
+    // Check 6: Environment
+    printf("6. Environment variables:\n");
+    printf("   TERM=%s\n", getenv("TERM"));
+    printf("   HOME=%s\n", getenv("HOME"));
+    printf("   PATH=%s\n", getenv("PATH"));
+    
+    printf("\n=== ATTEMPTING EXECUTION ===\n");
+    printf("Command: /root/reader /mnt\n");
+    printf("Working directory: /root\n");
+    flush_output();
     sleep(2);
     
     chdir("/root");
     char *args[] = { "/root/reader", "/mnt", NULL };
-    execv("/root/reader", args);
+    char *envp[] = { 
+        "TERM=linux", 
+        "HOME=/root", 
+        "PATH=/bin:/sbin:/usr/bin:/usr/sbin",
+        NULL 
+    };
     
-    printf("\nERROR: Failed to start reader! \n");
+    execve("/root/reader", args, envp);
+    
+    // If we reach here, exec failed
+    printf("\n");
+    printf("==========================================\n");
+    printf("  EXECUTION FAILED\n");
+    printf("==========================================\n");
+    printf("\n");
+    printf("Error number: %d\n", errno);
+    printf("Error message: %s\n", strerror(errno));
+    printf("\nCommon error codes:\n");
+    printf("  2  = ENOENT (No such file)\n");
+    printf("  8  = ENOEXEC (Invalid binary format)\n");
+    printf("  13 = EACCES (Permission denied)\n");
+    
+    printf("\nBinary header (first 128 bytes):\n");
     flush_output();
-    sleep(30);
+    
+    fp = popen("hexdump -C /root/reader 2>&1 | head -8", "r");
+    if (fp) {
+        char line[256];
+        while (fgets(line, sizeof(line), fp)) {
+            printf("%s", line);
+        }
+        pclose(fp);
+    }
+    
+    printf("\n==========================================\n");
+    printf("Keeping system alive for 2 minutes...\n");
+    printf("Press Ctrl+Alt+Del to reboot.\n");
+    printf("==========================================\n");
+    flush_output();
+    
+    sleep(120);
     reboot(LINUX_REBOOT_CMD_POWER_OFF);
     return 1;
 }
