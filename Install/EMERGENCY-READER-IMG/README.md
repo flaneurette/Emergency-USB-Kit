@@ -10,9 +10,11 @@ The reader binary is a simple file reader for emergency access, when nothing wor
 
 If you want to compile it yourself:
 
-`gcc -g -o reader reader1.c`
+### Recompile as static binary (no dependencies!)
+`gcc -static -Os -s reader.c -o reader`
 
-And then overwrite the `reader` file.
+### Verify it's truly static
+`ldd reader`
 
 The .sh script automatically copy it over into `/root/reader`
 
