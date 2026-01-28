@@ -2,7 +2,7 @@
 
 A premade `EMERGENCY-READER.IMG` has been prepared and put inside `/LiveOS/`
 
-To create a very small linux from scratch (about 15MB) just run `install-reader.sh`
+To create a very small linux from scratch (about 15MB) just run `install-reader.sh`, best to run it from Windows WSL.
 
 # Reader
 
