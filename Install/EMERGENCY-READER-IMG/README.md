@@ -6,7 +6,7 @@ To create a very small linux from scratch (about 15MB) just run `install-reader.
 
 # Reader
 
-The reader binary is a simple file reader for emergency access, when nothing works or for somehow that doesn't understand consoles and terminals. It is precompiled as `reader`. 
+The reader binary is a simple file reader for emergency access, when nothing works or for someone that doesn't understand consoles and terminals. It is precompiled as `reader`. 
 
 If you want to compile it yourself:
 
@@ -16,5 +16,5 @@ If you want to compile it yourself:
 ### Verify it's truly static
 `ldd reader`
 
-The .sh script automatically copy it over into `/root/reader`
+The .sh script automatically copy it over into `/root/reader` (do not do this manually!)
 
